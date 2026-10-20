@@ -1,0 +1,12 @@
+# Bulk prediction downloads and API caches (not versioned)
+data/raw/
+data/cache/
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
