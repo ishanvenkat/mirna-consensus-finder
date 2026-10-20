@@ -1,0 +1,1297 @@
+"gene_symbol","mirna","consensus_score","n_sources","integration_method","mirdip_score_raw","mirdip_score_class","consensus_rank"
+"PTEN","hsa-miR-1297",1991,3,"tiered",0.843482810283215,"Very High",1
+"PTEN","hsa-miR-26b-5p",1987,3,"tiered",0.923213246626518,"Very High",2
+"PTEN","hsa-miR-26a-5p",1986,3,"tiered",0.898166316062281,"Very High",3
+"PTEN","hsa-miR-494-3p",1959,3,"tiered",0.89798967904788,"Very High",4
+"PTEN","hsa-miR-29b-3p",1930,3,"tiered",0.875737835539863,"Very High",5
+"PTEN","hsa-miR-29c-3p",1922,3,"tiered",0.89350569997965,"Very High",6
+"PTEN","hsa-miR-29a-3p",1918,3,"tiered",0.872393531478842,"Very High",7
+"PTEN","hsa-miR-32-5p",1901,3,"tiered",0.86764131396803,"Very High",8
+"PTEN","hsa-miR-513b-3p",1892,3,"tiered",0.28403407908474,"Very High",9
+"PTEN","hsa-miR-3974",1877,3,"tiered",0.465472562771284,"Very High",10
+"PTEN","hsa-miR-92a-3p",1870,3,"tiered",0.852697181230643,"Very High",11
+"PTEN","hsa-miR-92b-3p",1863,3,"tiered",0.844769808670769,"Very High",12
+"PTEN","hsa-miR-486-5p",1856,3,"tiered",0.797299599063593,"Very High",13
+"PTEN","hsa-miR-19a-3p",1852,3,"tiered",0.889651494583618,"Very High",14
+"PTEN","hsa-miR-19b-3p",1850,3,"tiered",0.887283015067305,"Very High",15
+"PTEN","hsa-miR-1277-5p",1846,3,"tiered",0.651103795892134,"Very High",16
+"PTEN","hsa-miR-3065-3p",1835,3,"tiered",0.589896045768795,"Very High",17
+"PTEN","hsa-miR-4465",1834,3,"tiered",0.656272162865404,"Very High",18
+"PTEN","hsa-miR-30d-3p",1830,3,"tiered",0.68253398277467,"Very High",19
+"PTEN","hsa-miR-30a-3p",1828,3,"tiered",0.714174021411837,"Very High",20
+"PTEN","hsa-miR-30e-3p",1826,3,"tiered",0.742388444408834,"Very High",21
+"PTEN","hsa-miR-3064-3p",1803,3,"tiered",0.510124870871649,"Very High",22
+"PTEN","hsa-miR-3944-5p",1802,3,"tiered",0.514538701879918,"Very High",23
+"PTEN","hsa-miR-582-3p",1789,2,"tiered",0.688593497136508,"Very High",24
+"PTEN","hsa-miR-6730-3p",1787,3,"tiered",0.268549494552646,"Very High",25
+"PTEN","hsa-miR-4752",1784,3,"tiered",0.576399427541393,"Very High",26
+"PTEN","hsa-miR-153-5p",1777,3,"tiered",0.208998638114882,"Medium",27
+"PTEN","hsa-miR-8485",1771,3,"tiered",0.274025348558021,"High",28
+"PTEN","hsa-miR-4470",1759,3,"tiered",0.451754463163951,"Very High",29
+"PTEN","hsa-miR-5589-3p",1752,3,"tiered",0.551636638676011,"Very High",30
+"PTEN","hsa-miR-4662a-5p",1752,3,"tiered",0.476404362971454,"Very High",31
+"PTEN","hsa-miR-548m",1749,2,"tiered",0.71213966799515,"Very High",32
+"PTEN","hsa-miR-4738-3p",1741,3,"tiered",0.447973602986484,"Very High",33
+"PTEN","hsa-miR-5590-5p",1729,2,"tiered",0.405990373784507,"Very High",34
+"PTEN","hsa-miR-519c-3p",1725,2,"tiered",0.798971041613974,"Very High",35
+"PTEN","hsa-miR-372-5p",1718,3,"tiered",0.286191171946631,"High",36
+"PTEN","hsa-miR-519b-3p",1714,2,"tiered",0.811256910408167,"Very High",37
+"PTEN","hsa-miR-642a-3p",1712,3,"tiered",0.44056335607532,"Very High",38
+"PTEN","hsa-miR-3613-3p",1711,2,"tiered",0.431973257266673,"Medium",39
+"PTEN","hsa-miR-198",1709,3,"tiered",0.771594253748727,"Very High",40
+"PTEN","hsa-miR-22-3p",1708,3,"tiered",0.912214667587334,"Very High",41
+"PTEN","hsa-miR-519a-3p",1706,2,"tiered",0.847879701467188,"Very High",42
+"PTEN","hsa-miR-642b-3p",1704,3,"tiered",0.582049116492608,"Very High",43
+"PTEN","hsa-miR-203b-3p",1698,3,"tiered",0.414718480657399,"Very High",44
+"PTEN","hsa-miR-4776-3p",1683,3,"tiered",0.51533557668766,"Very High",45
+"PTEN","hsa-miR-4659b-5p",1682,2,"tiered",0.307810584651144,"High",46
+"PTEN","hsa-miR-676-3p",1679,2,"tiered",0.534854853292363,"Very High",47
+"PTEN","hsa-miR-193a-3p",1672,2,"tiered",0.804725329144266,"Very High",48
+"PTEN","hsa-miR-3148",1658,3,"tiered",0.66112255088075,"Very High",49
+"PTEN","hsa-miR-6730-5p",1657,3,"tiered",0.282994372372326,"Very High",50
+"PTEN","hsa-miR-548as-3p",1647,2,"tiered",0.630214453963526,"Very High",51
+"PTEN","hsa-miR-4789-3p",1647,2,"tiered",0.38776541653102,"High",52
+"PTEN","hsa-miR-3691-5p",1644,3,"tiered",0.502910476874585,"Very High",53
+"PTEN","hsa-miR-23c",1626,3,"tiered",0.730308060155065,"Very High",54
+"PTEN","hsa-miR-141-3p",1626,2,"tiered",0.879224695188628,"Very High",55
+"PTEN","hsa-miR-449b-3p",1618,3,"tiered",0.300962754349617,"High",56
+"PTEN","hsa-miR-301a-3p",1617,2,"tiered",0.898839363045189,"Very High",57
+"PTEN","hsa-miR-23b-3p",1616,3,"tiered",0.86280209464571,"Very High",58
+"PTEN","hsa-miR-33a-3p",1612,3,"tiered",0.5907460429635,"Very High",59
+"PTEN","hsa-miR-1285-3p",1610,3,"tiered",0.535853908619301,"Very High",60
+"PTEN","hsa-miR-6768-5p",1609,3,"tiered",0.26542712503904,"High",61
+"PTEN","hsa-miR-148b-3p",1607,3,"tiered",0.902340106376582,"Very High",62
+"PTEN","hsa-miR-425-5p",1607,2,"tiered",0.756031446466696,"Very High",63
+"PTEN","hsa-miR-23a-3p",1605,3,"tiered",0.819533028935291,"Very High",64
+"PTEN","hsa-miR-3666",1599,2,"tiered",0.731449354258257,"Very High",65
+"PTEN","hsa-miR-200a-3p",1596,2,"tiered",0.845479611879655,"Very High",66
+"PTEN","hsa-miR-301b-3p",1595,2,"tiered",0.899108565006271,"Very High",67
+"PTEN","hsa-miR-570-3p",1594,3,"tiered",0.755666579679072,"Very High",68
+"PTEN","hsa-miR-152-3p",1592,3,"tiered",0.924859171902584,"Very High",69
+"PTEN","hsa-miR-193b-3p",1590,2,"tiered",0.773502948202088,"Very High",70
+"PTEN","hsa-miR-616-5p",1586,3,"tiered",0.617603797559861,"Very High",71
+"PTEN","hsa-miR-371b-5p",1571,3,"tiered",0.522351201104648,"High",72
+"PTEN","hsa-miR-337-3p",1566,3,"tiered",0.710741536082681,"Very High",73
+"PTEN","hsa-miR-6801-5p",1560,2,"tiered",0.273103723707798,"Very High",74
+"PTEN","hsa-miR-3654",1557,2,"tiered",0.474377852225675,"Very High",75
+"PTEN","hsa-miR-548d-3p",1538,2,"tiered",0.640362907935217,"High",76
+"PTEN","hsa-miR-548ac",1536,2,"tiered",0.442920877996755,"High",77
+"PTEN","hsa-miR-6882-3p",1535,2,"tiered",0.280970650083979,"Very High",78
+"PTEN","hsa-miR-548z",1535,2,"tiered",0.455418102103071,"High",79
+"PTEN","hsa-miR-548h-3p",1535,2,"tiered",0.455418102103071,"High",80
+"PTEN","hsa-miR-4764-5p",1534,2,"tiered",0.388587456137049,"Very High",81
+"PTEN","hsa-miR-585-5p",1531,2,"tiered",0.0746646582627807,"Medium",82
+"PTEN","hsa-miR-548bb-3p",1531,2,"tiered",0.0960931015418616,"Medium",83
+"PTEN","hsa-miR-130b-3p",1531,2,"tiered",0.883414779490761,"Very High",84
+"PTEN","hsa-miR-514b-3p",1530,3,"tiered",0.547753591402919,"Very High",85
+"PTEN","hsa-miR-130a-3p",1530,2,"tiered",0.893644433933219,"Very High",86
+"PTEN","hsa-miR-6754-3p",1518,2,"tiered",0.00677248703350364,"Low",87
+"PTEN","hsa-miR-514a-3p",1517,3,"tiered",0.711930467074785,"Very High",88
+"PTEN","hsa-miR-4295",1517,2,"tiered",0.701933360904619,"Very High",89
+"PTEN","hsa-miR-3938",1513,2,"tiered",0.590389918758348,"Very High",90
+"PTEN","hsa-miR-338-3p",1511,3,"tiered",0.807218145339974,"Very High",91
+"PTEN","hsa-miR-4666a-5p",1510,2,"tiered",0.256754946506344,"Medium",92
+"PTEN","hsa-miR-4303",1502,3,"tiered",0.398064351859864,"Very High",93
+"PTEN","hsa-miR-1183",1501,2,"tiered",0.639083275003747,"Very High",94
+"PTEN","hsa-miR-6512-5p",1500,3,"tiered",0.250126618590476,"High",95
+"PTEN","hsa-miR-548ar-3p",1495,3,"tiered",0.561082400886311,"Very High",96
+"PTEN","hsa-miR-25-3p",1492,3,"tiered",0.88746340808666,"Very High",97
+"PTEN","hsa-miR-7150",1492,2,"tiered",0.169071623736687,"High",98
+"PTEN","hsa-miR-511-3p",1486,2,"tiered",0.261159816211346,"Very High",99
+"PTEN","hsa-miR-4528",1484,2,"tiered",0.519344998336697,"Very High",100
+"PTEN","hsa-miR-548a-3p",1481,3,"tiered",0.814469196804247,"Very High",101
+"PTEN","hsa-miR-335-3p",1478,3,"tiered",0.588880754035341,"High",102
+"PTEN","hsa-miR-4659a-5p",1473,2,"tiered",0.242720129802885,"High",103
+"PTEN","hsa-miR-454-3p",1471,2,"tiered",0.900916416889553,"Very High",104
+"PTEN","hsa-miR-2277-3p",1471,2,"tiered",0.484710260963768,"Very High",105
+"PTEN","hsa-miR-8076",1468,2,"tiered",0.124185380464136,"Medium",106
+"PTEN","hsa-miR-195-3p",1468,2,"tiered",0.235862136596463,"Medium",107
+"PTEN","hsa-miR-1243",1467,2,"tiered",0.169717689581429,"Medium",108
+"PTEN","hsa-miR-744-3p",1466,2,"tiered",0.542154358976907,"Very High",109
+"PTEN","hsa-miR-548av-3p",1464,2,"tiered",0.45339866080825,"Very High",110
+"PTEN","hsa-miR-4694-5p",1464,2,"tiered",0.184502750860271,"High",111
+"PTEN","hsa-miR-519d-3p",1462,2,"tiered",0.765524094891284,"High",112
+"PTEN","hsa-miR-548az-3p",1461,3,"tiered",0.377910784004604,"Very High",113
+"PTEN","hsa-miR-548e-3p",1456,3,"tiered",0.65979613255792,"Very High",114
+"PTEN","hsa-miR-363-3p",1455,3,"tiered",0.85644602271704,"Very High",115
+"PTEN","hsa-miR-148a-3p",1451,3,"tiered",0.896310397929719,"Very High",116
+"PTEN","hsa-miR-2355-3p",1451,2,"tiered",0.35613524641356,"High",117
+"PTEN","hsa-miR-548f-3p",1449,3,"tiered",0.727468081025176,"Very High",118
+"PTEN","hsa-miR-5011-5p",1446,3,"tiered",0.78821857095053,"Very High",119
+"PTEN","hsa-miR-526b-3p",1444,2,"tiered",0.432426691282498,"High",120
+"PTEN","hsa-miR-6818-3p",1433,2,"tiered",0.0829160455379389,"Medium",121
+"PTEN","hsa-miR-1250-3p",1430,2,"tiered",0.215564743113966,"Medium",122
+"PTEN","hsa-miR-4802-3p",1429,3,"tiered",0.241380395823756,"High",123
+"PTEN","hsa-miR-5189-5p",1427,3,"tiered",0.346409429405346,"High",124
+"PTEN","hsa-miR-4272",1421,2,"tiered",0.580032867329981,"Very High",125
+"PTEN","hsa-miR-651-3p",1419,3,"tiered",0.372373138899605,"High",126
+"PTEN","hsa-miR-7855-5p",1417,2,"tiered",0.150382428364434,"High",127
+"PTEN","hsa-miR-889-3p",1416,3,"tiered",0.506783420717861,"High",128
+"PTEN","hsa-miR-6867-5p",1414,2,"tiered",0.254612056483996,"Medium",129
+"PTEN","hsa-miR-6807-3p",1411,2,"tiered",0.0391310293297746,"Low",130
+"PTEN","hsa-miR-144-3p",1404,3,"tiered",0.857463168802791,"Very High",131
+"PTEN","hsa-miR-412-3p",1398,2,"tiered",0.304718952807993,"High",132
+"PTEN","hsa-miR-16-2-3p",1398,2,"tiered",0.221431296059321,"Medium",133
+"PTEN","hsa-miR-214-3p",1397,3,"tiered",0.715518025163448,"Very High",134
+"PTEN","hsa-miR-4418",1395,2,"tiered",0.200896441151941,"Medium",135
+"PTEN","hsa-miR-3117-3p",1392,2,"tiered",0.4159098408339,"Very High",136
+"PTEN","hsa-miR-488-3p",1391,3,"tiered",0.408074095211047,"High",137
+"PTEN","hsa-miR-622",1387,2,"tiered",0.681323882495005,"Very High",138
+"PTEN","hsa-miR-509-3p",1385,2,"tiered",0.651666880317964,"Very High",139
+"PTEN","hsa-miR-16-1-3p",1384,3,"tiered",0.599271842710361,"Very High",140
+"PTEN","hsa-miR-5696",1382,3,"tiered",0.290397552457903,"Medium",141
+"PTEN","hsa-miR-616-3p",1381,2,"tiered",0.443089568000429,"Very High",142
+"PTEN","hsa-miR-1323",1381,2,"tiered",0.710029557515408,"Very High",143
+"PTEN","hsa-miR-4426",1379,3,"tiered",0.208450720085996,"High",144
+"PTEN","hsa-miR-4662b",1379,2,"tiered",0.262296075217937,"High",145
+"PTEN","hsa-miR-4520-2-3p",1370,3,"tiered",0.250496551126188,"High",146
+"PTEN","hsa-miR-373-5p",1367,3,"tiered",0.567576133480193,"Very High",147
+"PTEN","hsa-miR-107",1348,2,"tiered",0.782761520040258,"High",148
+"PTEN","hsa-miR-103a-3p",1348,2,"tiered",0.794874294283527,"High",149
+"PTEN","hsa-miR-367-3p",1346,3,"tiered",0.793405893776958,"Very High",150
+"PTEN","hsa-miR-6732-3p",1346,2,"tiered",0.126018067343607,"Medium",151
+"PTEN","hsa-miR-3688-3p",1344,3,"tiered",0.418380184342353,"High",152
+"PTEN","hsa-miR-5590-3p",1342,2,"tiered",0.634796668161454,"Very High",153
+"PTEN","hsa-miR-9-3p",1338,2,"tiered",0.438464988870217,"High",154
+"PTEN","hsa-miR-367-5p",1332,3,"tiered",0.376022673619894,"Very High",155
+"PTEN","hsa-miR-548o-3p",1332,2,"tiered",0.689135739225532,"Very High",156
+"PTEN","hsa-miR-579-3p",1329,2,"tiered",0.563223053032584,"High",157
+"PTEN","hsa-miR-6817-5p",1326,3,"tiered",0.215292850287594,"High",158
+"PTEN","hsa-miR-5681a",1324,3,"tiered",0.312758812163615,"High",159
+"PTEN","hsa-miR-513c-3p",1322,3,"tiered",0.592007917276184,"Very High",160
+"PTEN","hsa-miR-513a-3p",1321,3,"tiered",0.753374868516772,"Very High",161
+"PTEN","hsa-miR-590-3p",1320,3,"tiered",0.657503220626175,"High",162
+"PTEN","hsa-miR-664b-3p",1319,2,"tiered",0.344578411081963,"High",163
+"PTEN","hsa-miR-664a-3p",1317,3,"tiered",0.528152280939465,"High",164
+"PTEN","hsa-miR-4252",1310,2,"tiered",0.463653050398475,"Very High",165
+"PTEN","hsa-miR-542-3p",1307,2,"tiered",0.793689198801703,"Very High",166
+"PTEN","hsa-miR-3177-5p",1307,2,"tiered",0.199163305120109,"Medium",167
+"PTEN","hsa-miR-188-5p",1306,3,"tiered",0.767449583932413,"Very High",168
+"PTEN","hsa-miR-205-5p",1306,2,"tiered",0.708837366786847,"Very High",169
+"PTEN","hsa-miR-618",1296,2,"tiered",0.591355468411531,"Very High",170
+"PTEN","hsa-miR-8065",1293,2,"tiered",0.11972473404308,"Medium",171
+"PTEN","hsa-miR-3658",1287,3,"tiered",0.61715834849607,"Very High",172
+"PTEN","hsa-miR-4531",1284,3,"tiered",0.262772508730172,"High",173
+"PTEN","hsa-miR-3945",1284,2,"tiered",0.217443822889992,"High",174
+"PTEN","hsa-miR-106a-5p",1282,2,"tiered",0.818543050583067,"High",175
+"PTEN","hsa-miR-4736",1271,3,"tiered",0.364405878094927,"High",176
+"PTEN","hsa-miR-4439",1271,2,"tiered",0.390643505726582,"Very High",177
+"PTEN","hsa-miR-6868-5p",1269,2,"tiered",0.217791411878763,"High",178
+"PTEN","hsa-miR-4282",1269,2,"tiered",0.56898237906816,"High",179
+"PTEN","hsa-miR-548ba",1264,2,"tiered",0.216301640181906,"High",180
+"PTEN","hsa-miR-6128",1263,2,"tiered",0.317544799812639,"Very High",181
+"PTEN","hsa-miR-6837-3p",1261,2,"tiered",0.060919730696726,"Low",182
+"PTEN","hsa-miR-5001-3p",1261,2,"tiered",0.313594712360979,"High",183
+"PTEN","hsa-miR-135a-3p",1259,2,"tiered",0.339483870448709,"Very High",184
+"PTEN","hsa-miR-4495",1258,3,"tiered",0.290643598840053,"Medium",185
+"PTEN","hsa-miR-5009-5p",1247,2,"tiered",0.291252961123555,"High",186
+"PTEN","hsa-miR-106b-5p",1247,2,"tiered",0.7545703967557,"High",187
+"PTEN","hsa-miR-20a-5p",1243,2,"tiered",0.740625043364643,"High",188
+"PTEN","hsa-miR-181d-5p",1242,2,"tiered",0.63259761069733,"High",189
+"PTEN","hsa-miR-4328",1240,3,"tiered",0.473057474455921,"Very High",190
+"PTEN","hsa-miR-5690",1239,2,"tiered",0.269986125866826,"High",191
+"PTEN","hsa-miR-509-5p",1239,2,"tiered",0.321255606687183,"Medium",192
+"PTEN","hsa-miR-6505-5p",1237,2,"tiered",0.123425234999665,"Medium",193
+"PTEN","hsa-miR-181b-5p",1237,2,"tiered",0.634763779240703,"High",194
+"PTEN","hsa-miR-6866-3p",1235,3,"tiered",0.255732625529576,"Very High",195
+"PTEN","hsa-miR-3126-3p",1235,3,"tiered",0.226690489852701,"High",196
+"PTEN","hsa-miR-509-3-5p",1232,2,"tiered",0.406341233607603,"High",197
+"PTEN","hsa-miR-3128",1228,3,"tiered",0.287802934808077,"High",198
+"PTEN","hsa-miR-181c-5p",1225,2,"tiered",0.659929846718635,"High",199
+"PTEN","hsa-miR-3685",1224,2,"tiered",0.410050971042598,"Very High",200
+"PTEN","hsa-miR-4731-3p",1221,2,"tiered",0.286994981800251,"High",201
+"PTEN","hsa-miR-4694-3p",1213,2,"tiered",0.507954445114378,"Very High",202
+"PTEN","hsa-miR-548v",1210,2,"tiered",0.213994993614278,"Medium",203
+"PTEN","hsa-miR-190a-3p",1206,3,"tiered",0.447547902448101,"High",204
+"PTEN","hsa-miR-548p",1205,2,"tiered",0.470576673352765,"Medium",205
+"PTEN","hsa-miR-4775",1204,3,"tiered",0.420211246329791,"Medium",206
+"PTEN","hsa-miR-202-5p",1204,2,"tiered",0.434046345266169,"High",207
+"PTEN","hsa-miR-181a-5p",1202,2,"tiered",0.663440994277389,"High",208
+"PTEN","hsa-miR-4672",1197,2,"tiered",0.399247155346434,"High",209
+"PTEN","hsa-miR-4709-3p",1196,2,"tiered",0.467768957597729,"Very High",210
+"PTEN","hsa-miR-1269b",1196,2,"tiered",0.221398060494716,"High",211
+"PTEN","hsa-miR-548ag",1194,2,"tiered",0.42917149202224,"Very High",212
+"PTEN","hsa-miR-3606-3p",1193,3,"tiered",0.423469981442156,"Very High",213
+"PTEN","hsa-miR-6719-3p",1192,2,"tiered",0.169032905576144,"High",214
+"PTEN","hsa-miR-6501-5p",1184,3,"tiered",0.259171093881073,"Very High",215
+"PTEN","hsa-miR-4761-5p",1183,2,"tiered",0.427888157916203,"Very High",216
+"PTEN","hsa-miR-4678",1183,2,"tiered",0.242732309979077,"High",217
+"PTEN","hsa-miR-3176",1183,2,"tiered",0.465294307176134,"Very High",218
+"PTEN","hsa-miR-1269a",1181,2,"tiered",0.36345307913869,"High",219
+"PTEN","hsa-miR-548aq-5p",1177,2,"tiered",0.444446837449788,"High",220
+"PTEN","hsa-miR-219a-2-3p",1177,2,"tiered",0.720708976162384,"Very High",221
+"PTEN","hsa-miR-148a-5p",1176,2,"tiered",0.318781846998897,"High",222
+"PTEN","hsa-miR-548aj-5p",1173,2,"tiered",0.400523913613079,"High",223
+"PTEN","hsa-miR-548x-5p",1172,2,"tiered",0.40066875726316,"High",224
+"PTEN","hsa-miR-548g-5p",1172,2,"tiered",0.40066875726316,"High",225
+"PTEN","hsa-miR-3922-3p",1172,2,"tiered",0.415457351638492,"Very High",226
+"PTEN","hsa-miR-216b-5p",1169,3,"tiered",0.355719742885598,"Medium",227
+"PTEN","hsa-miR-548ai",1169,2,"tiered",0.420318227985988,"High",228
+"PTEN","hsa-miR-570-5p",1168,2,"tiered",0.420318227985988,"High",229
+"PTEN","hsa-miR-603",1167,2,"tiered",0.406082012314261,"High",230
+"PTEN","hsa-miR-568",1166,2,"tiered",0.607552545420269,"Very High",231
+"PTEN","hsa-miR-4772-3p",1160,2,"tiered",0.293628867327187,"High",232
+"PTEN","hsa-miR-3140-5p",1157,2,"tiered",0.153293039254255,"Medium",233
+"PTEN","hsa-miR-302e",1154,2,"tiered",0.198738220959435,"Medium",234
+"PTEN","hsa-miR-548f-5p",1153,2,"tiered",0.323691268043551,"High",235
+"PTEN","hsa-miR-302b-3p",1151,2,"tiered",0.520535333640236,"High",236
+"PTEN","hsa-miR-1279",1143,3,"tiered",0.590790717838262,"Very High",237
+"PTEN","hsa-miR-302a-3p",1137,2,"tiered",0.430968945374468,"Medium",238
+"PTEN","hsa-miR-548au-3p",1131,2,"tiered",0.164455221461861,"Medium",239
+"PTEN","hsa-miR-383-3p",1130,2,"tiered",0.109807530675285,"Medium",240
+"PTEN","hsa-miR-4746-3p",1130,1,"tiered",0.18516012501586,"Very High",241
+"PTEN","hsa-miR-4772-5p",1127,2,"tiered",0.127857420129331,"Medium",242
+"PTEN","hsa-miR-7844-5p",1125,2,"tiered",0.194633803603637,"High",243
+"PTEN","hsa-miR-130a-5p",1125,1,"tiered",0.518300631426532,"High",244
+"PTEN","hsa-miR-6507-5p",1124,3,"tiered",0.316279422884143,"High",245
+"PTEN","hsa-miR-302d-3p",1124,2,"tiered",0.529012544385218,"Medium",246
+"PTEN","hsa-miR-3136-5p",1123,2,"tiered",0.533174706970663,"Very High",247
+"PTEN","hsa-miR-548h-5p",1121,2,"tiered",0.585448401781767,"High",248
+"PTEN","hsa-miR-4801",1121,2,"tiered",0.237677060887519,"Medium",249
+"PTEN","hsa-miR-6513-3p",1119,2,"tiered",0.228003999752609,"High",250
+"PTEN","hsa-miR-3163",1117,2,"tiered",0.655770250168547,"High",251
+"PTEN","hsa-miR-548c-3p",1114,3,"tiered",0.581315480361728,"Medium",252
+"PTEN","hsa-miR-4429",1113,2,"tiered",0.408801905563578,"High",253
+"PTEN","hsa-miR-3135b",1111,3,"tiered",0.434194447481551,"Very High",254
+"PTEN","hsa-miR-505-3p.1",1111,1,"tiered",NA,NA,255
+"PTEN","hsa-miR-374a-5p",1110,2,"tiered",0.714585939314655,"Very High",256
+"PTEN","hsa-miR-100-3p",1109,2,"tiered",0.387096338941518,"Very High",257
+"PTEN","hsa-miR-8058",1109,1,"tiered",0.208707254799131,"Very High",258
+"PTEN","hsa-miR-216a-5p",1106,2,"tiered",0.622200974655903,"Very High",259
+"PTEN","hsa-miR-548y",1103,2,"tiered",0.445081933492007,"High",260
+"PTEN","hsa-let-7i-3p",1100,1,"tiered",0.278465505556641,"Very High",261
+"PTEN","hsa-miR-6761-3p",1095,2,"tiered",0.108348060677823,"High",262
+"PTEN","hsa-miR-584-5p",1095,2,"tiered",0.552051951891137,"Very High",263
+"PTEN","hsa-miR-376b-5p",1094,1,"tiered",0.102327971654356,"Medium",264
+"PTEN","hsa-miR-4703-3p",1093,2,"tiered",0.315032749231444,"Very High",265
+"PTEN","hsa-miR-376c-5p",1093,1,"tiered",0.113680560673447,"Medium",266
+"PTEN","hsa-miR-3616-3p",1088,2,"tiered",0.301639018150938,"High",267
+"PTEN","hsa-miR-4769-3p",1083,2,"tiered",0.252273309743782,"High",268
+"PTEN","hsa-miR-320b",1083,2,"tiered",0.705531980694587,"Very High",269
+"PTEN","hsa-miR-17-5p",1082,2,"tiered",0.807726534327445,"High",270
+"PTEN","hsa-miR-761",1081,2,"tiered",0.454326060130459,"High",271
+"PTEN","hsa-miR-3619-5p",1081,2,"tiered",0.483775554268621,"High",272
+"PTEN","hsa-miR-320c",1080,2,"tiered",0.74644433556562,"Very High",273
+"PTEN","hsa-miR-652-5p",1080,1,"tiered",0.304045169131606,"Very High",274
+"PTEN","hsa-miR-302d-5p",1078,2,"tiered",0.264220913122559,"Medium",275
+"PTEN","hsa-miR-3137",1077,2,"tiered",0.293332973331947,"High",276
+"PTEN","hsa-miR-6841-5p",1075,2,"tiered",0.142057874657861,"High",277
+"PTEN","hsa-miR-302b-5p",1075,2,"tiered",0.158809206338236,"Medium",278
+"PTEN","hsa-miR-320d",1073,2,"tiered",0.710826656051087,"Very High",279
+"PTEN","hsa-miR-93-5p",1072,2,"tiered",0.826311893459809,"High",280
+"PTEN","hsa-miR-30c-5p",1071,2,"tiered",0.4188359249554,"Medium",281
+"PTEN","hsa-miR-20b-5p",1071,2,"tiered",0.843937839537465,"High",282
+"PTEN","hsa-miR-5692c",1069,3,"tiered",0.616232279663834,"Very High",283
+"PTEN","hsa-miR-455-3p.2",1068,1,"tiered",NA,NA,284
+"PTEN","hsa-miR-374b-5p",1067,2,"tiered",0.75577304471736,"Very High",285
+"PTEN","hsa-miR-4638-3p",1065,3,"tiered",0.335920399815687,"Very High",286
+"PTEN","hsa-miR-30b-5p",1065,2,"tiered",0.43244145518257,"Medium",287
+"PTEN","hsa-miR-4681",1065,1,"tiered",0.219970404608633,"Very High",288
+"PTEN","hsa-miR-4708-3p",1063,2,"tiered",0.344819546546419,"Very High",289
+"PTEN","hsa-miR-10a-3p",1063,2,"tiered",0.211691920522066,"High",290
+"PTEN","hsa-miR-6833-5p",1063,1,"tiered",0.108668520956588,"Medium",291
+"PTEN","hsa-miR-1301-5p",1062,1,"tiered",0.0989675777980599,"High",292
+"PTEN","hsa-miR-6502-5p",1060,1,"tiered",0.0736199835726784,"Medium",293
+"PTEN","hsa-miR-5692b",1056,3,"tiered",0.586796712920442,"Very High",294
+"PTEN","hsa-miR-548a-5p",1055,2,"tiered",0.594397648417515,"High",295
+"PTEN","hsa-miR-520a-3p",1055,2,"tiered",0.497571606447614,"Medium",296
+"PTEN","hsa-miR-3912-5p",1055,2,"tiered",0.0271116478680512,"Low",297
+"PTEN","hsa-miR-30d-5p",1052,2,"tiered",0.45328030721711,"Medium",298
+"PTEN","hsa-miR-4680-3p",1051,2,"tiered",0.339089818705008,"High",299
+"PTEN","hsa-miR-4529-3p",1048,1,"tiered",0.222278004972683,"High",300
+"PTEN","hsa-miR-548am-5p",1045,2,"tiered",0.452826924476018,"High",301
+"PTEN","hsa-miR-4760-3p",1045,2,"tiered",0.284854685204735,"Medium",302
+"PTEN","hsa-miR-1468-3p",1045,2,"tiered",0.223810674328202,"Medium",303
+"PTEN","hsa-miR-3652",1045,1,"tiered",0.388862216645326,"Very High",304
+"PTEN","hsa-miR-4430",1044,1,"tiered",0.35747797523101,"High",305
+"PTEN","hsa-miR-548b-5p",1042,2,"tiered",0.652485086364068,"High",306
+"PTEN","hsa-miR-548au-5p",1041,2,"tiered",0.45422282888101,"High",307
+"PTEN","hsa-miR-4262",1040,2,"tiered",0.48483280119265,"High",308
+"PTEN","hsa-miR-575",1039,3,"tiered",0.374737380614455,"High",309
+"PTEN","hsa-miR-5571-5p",1039,3,"tiered",0.239914944390297,"Medium",310
+"PTEN","hsa-miR-6755-5p",1039,2,"tiered",0.0539235789100129,"Medium",311
+"PTEN","hsa-miR-548ar-5p",1039,2,"tiered",0.447710607258552,"High",312
+"PTEN","hsa-miR-548c-5p",1038,2,"tiered",0.583076552152819,"High",313
+"PTEN","hsa-miR-377-3p",1038,1,"tiered",0.208688415318469,"Medium",314
+"PTEN","hsa-miR-548ap-5p",1037,2,"tiered",0.373092322563276,"High",315
+"PTEN","hsa-miR-6815-5p",1035,1,"tiered",0.16615668690462,"High",316
+"PTEN","hsa-miR-548o-5p",1034,2,"tiered",0.452826924476018,"High",317
+"PTEN","hsa-miR-6865-5p",1034,1,"tiered",0.222623601060085,"High",318
+"PTEN","hsa-miR-5089-3p",1033,2,"tiered",0.0840902314116181,"Medium",319
+"PTEN","hsa-miR-4482-3p",1032,3,"tiered",0.384573374604997,"High",320
+"PTEN","hsa-miR-520d-3p",1032,2,"tiered",0.61457516619095,"High",321
+"PTEN","hsa-miR-4647",1030,1,"tiered",0.231578849520697,"Medium",322
+"PTEN","hsa-miR-4524a-5p",1029,3,"tiered",0.22751184714138,"Medium",323
+"PTEN","hsa-miR-217",1028,1,"tiered",NA,NA,324
+"PTEN","hsa-miR-7-2-3p",1026,3,"tiered",0.536154565228308,"High",325
+"PTEN","hsa-miR-7-1-3p",1025,3,"tiered",0.564724765410758,"High",326
+"PTEN","hsa-miR-548i",1024,2,"tiered",0.576368646193732,"High",327
+"PTEN","hsa-miR-520c-3p",1024,2,"tiered",0.58454870020663,"High",328
+"PTEN","hsa-miR-30a-5p",1024,2,"tiered",0.519052781354914,"Medium",329
+"PTEN","hsa-miR-4290",1023,1,"tiered",0.206069656890977,"Medium",330
+"PTEN","hsa-miR-548as-5p",1022,2,"tiered",0.451611998847316,"High",331
+"PTEN","hsa-miR-331-5p",1022,1,"tiered",0.352595681925463,"High",332
+"PTEN","hsa-miR-4698",1018,2,"tiered",0.380550341656382,"Medium",333
+"PTEN","hsa-miR-7843-3p",1017,2,"tiered",0.0801576028871129,"Medium",334
+"PTEN","hsa-miR-499b-5p",1017,2,"tiered",0.158727790714209,"Medium",335
+"PTEN","hsa-miR-497-5p",1017,2,"tiered",0.304905739236729,"Medium",336
+"PTEN","hsa-miR-548j-5p",1016,2,"tiered",0.581638759392647,"High",337
+"PTEN","hsa-miR-9-5p",1014,2,"tiered",0.526583624567131,"Medium",338
+"PTEN","hsa-miR-548ae-5p",1014,2,"tiered",0.181319077039333,"High",339
+"PTEN","hsa-miR-548ad-5p",1014,2,"tiered",0.12061588027985,"Medium",340
+"PTEN","hsa-miR-1305",1013,3,"tiered",0.544730766257482,"High",341
+"PTEN","hsa-miR-548ab",1013,2,"tiered",0.441703412281664,"High",342
+"PTEN","hsa-miR-6511b-5p",1013,1,"tiered",0.193392408444883,"Medium",343
+"PTEN","hsa-miR-15a-5p",1012,2,"tiered",0.517003391778494,"Medium",344
+"PTEN","hsa-miR-6728-5p",1012,1,"tiered",0.292090784496641,"Very High",345
+"PTEN","hsa-miR-548d-5p",1011,2,"tiered",0.578181476967758,"High",346
+"PTEN","hsa-miR-6811-5p",1011,1,"tiered",0.150327226994086,"Medium",347
+"PTEN","hsa-miR-7152-5p",1010,2,"tiered",0.236427041411834,"High",348
+"PTEN","hsa-miR-548ay-5p",1010,2,"tiered",0.207692804071423,"Medium",349
+"PTEN","hsa-miR-4676-5p",1009,3,"tiered",0.215423341800657,"Medium",350
+"PTEN","hsa-miR-3650",1009,2,"tiered",0.309264820385157,"High",351
+"PTEN","hsa-miR-1227-3p",1009,2,"tiered",0.594323765162927,"Very High",352
+"PTEN","hsa-miR-4728-3p",1008,1,"tiered",0.12328207068604,"Medium",353
+"PTEN","hsa-miR-8056",1007,1,"tiered",0.114016567774616,"High",354
+"PTEN","hsa-miR-183-5p.1",1006,1,"tiered",NA,NA,355
+"PTEN","hsa-miR-3660",1004,2,"tiered",0.439893664953787,"Very High",356
+"PTEN","hsa-miR-3187-5p",1002,2,"tiered",0.320523275456623,"High",357
+"PTEN","hsa-miR-18b-3p",1002,1,"tiered",0.162148259420332,"High",358
+"PTEN","hsa-miR-6860",1001,2,"tiered",0.219136232365645,"Medium",359
+"PTEN","hsa-miR-612",1001,2,"tiered",0.499280149273052,"High",360
+"PTEN","hsa-miR-4719",999,2,"tiered",0.265978377401952,"Medium",361
+"PTEN","hsa-miR-424-5p",996,2,"tiered",0.555120219685613,"Medium",362
+"PTEN","hsa-miR-325",996,1,"tiered",0.547427971951593,"Very High",363
+"PTEN","hsa-miR-10a-5p",994,1,"tiered",0.767098409031255,"Very High",364
+"PTEN","hsa-miR-10b-5p",993,1,"tiered",0.690857585500178,"Very High",365
+"PTEN","hsa-miR-337-5p",992,1,"tiered",0.432641648955574,"Very High",366
+"PTEN","hsa-miR-3123",990,2,"tiered",0.369675937307412,"High",367
+"PTEN","hsa-miR-30e-5p",988,2,"tiered",0.442083875957016,"Medium",368
+"PTEN","hsa-miR-4509",987,2,"tiered",0.194119335237701,"Medium",369
+"PTEN","hsa-miR-15b-5p",987,2,"tiered",0.560249736713046,"Medium",370
+"PTEN","hsa-miR-4524b-5p",985,3,"tiered",0.232469424538937,"Medium",371
+"PTEN","hsa-miR-944",984,2,"tiered",0.421902185547941,"Medium",372
+"PTEN","hsa-miR-195-5p",984,2,"tiered",0.62171134850113,"Medium",373
+"PTEN","hsa-miR-3942-5p",984,1,"tiered",0.300112563781541,"High",374
+"PTEN","hsa-miR-16-5p",983,2,"tiered",0.692655653446668,"Medium",375
+"PTEN","hsa-miR-4703-5p",983,1,"tiered",0.178737954648186,"Medium",376
+"PTEN","hsa-miR-5684",982,1,"tiered",0.155103671502582,"Medium",377
+"PTEN","hsa-miR-142-5p",981,2,"tiered",0.758189174715774,"Very High",378
+"PTEN","hsa-miR-155-3p",981,1,"tiered",0.334675428417357,"High",379
+"PTEN","hsa-miR-934",980,1,"tiered",0.131206427613082,"Medium",380
+"PTEN","hsa-miR-559",979,2,"tiered",0.562168616546465,"High",381
+"PTEN","hsa-miR-6797-3p",976,2,"tiered",0.206498842623595,"Very High",382
+"PTEN","hsa-miR-3616-5p",975,2,"tiered",0.146944309890343,"Medium",383
+"PTEN","hsa-miR-372-3p",974,2,"tiered",0.562600570299725,"Medium",384
+"PTEN","hsa-miR-7702",969,2,"tiered",0.111693976840636,"High",385
+"PTEN","hsa-miR-543",969,2,"tiered",0.738943301599416,"Very High",386
+"PTEN","hsa-miR-628-3p",969,1,"tiered",0.593674472271657,"Very High",387
+"PTEN","hsa-miR-642a-5p",968,1,"tiered",0.481844792361516,"Very High",388
+"PTEN","hsa-miR-3688-5p",967,1,"tiered",0.365207044282514,"Very High",389
+"PTEN","hsa-miR-576-3p",966,2,"tiered",0.423395304581134,"High",390
+"PTEN","hsa-miR-4434",966,1,"tiered",0.257096239162067,"High",391
+"PTEN","hsa-miR-4516",965,1,"tiered",0.289461582888385,"Medium",392
+"PTEN","hsa-miR-5703",963,1,"tiered",0.305001187300414,"High",393
+"PTEN","hsa-miR-4526",960,1,"tiered",0.37590557558368,"Very High",394
+"PTEN","hsa-miR-6800-3p",959,1,"tiered",0.118661844202525,"Medium",395
+"PTEN","hsa-miR-95-5p",957,2,"tiered",0.190126692273801,"Medium",396
+"PTEN","hsa-miR-5088-3p",955,2,"tiered",0.105349859876345,"Medium",397
+"PTEN","hsa-miR-1265",955,2,"tiered",0.476458228540492,"Very High",398
+"PTEN","hsa-miR-3923",955,1,"tiered",0.257855241288631,"High",399
+"PTEN","hsa-miR-4710",954,1,"tiered",0.336126828011555,"High",400
+"PTEN","hsa-miR-5588-3p",953,1,"tiered",0.212417646145569,"High",401
+"PTEN","hsa-miR-6842-3p",951,1,"tiered",0.194781680075483,"High",402
+"PTEN","hsa-miR-4727-5p",950,1,"tiered",0.267365457406636,"High",403
+"PTEN","hsa-miR-630",949,1,"tiered",0.549422986609366,"Very High",404
+"PTEN","hsa-miR-1287-5p",947,1,"tiered",0.447964261446313,"Very High",405
+"PTEN","hsa-miR-3171",944,2,"tiered",0.408988690703992,"Very High",406
+"PTEN","hsa-miR-4740-5p",941,1,"tiered",0.146679499454057,"Medium",407
+"PTEN","hsa-miR-6076",940,2,"tiered",0.230825758761481,"Very High",408
+"PTEN","hsa-miR-708-3p",940,1,"tiered",0.246090712521554,"High",409
+"PTEN","hsa-miR-3201",939,1,"tiered",0.228784674784647,"High",410
+"PTEN","hsa-miR-5682",938,2,"tiered",0.364650069248968,"High",411
+"PTEN","hsa-miR-4700-5p",938,2,"tiered",0.194868966179596,"Medium",412
+"PTEN","hsa-miR-4791",938,1,"tiered",0.148515575636089,"Medium",413
+"PTEN","hsa-miR-548aj-3p",937,2,"tiered",0.336500188162618,"Medium",414
+"PTEN","hsa-miR-1910-3p",937,2,"tiered",0.178413845212217,"Medium",415
+"PTEN","hsa-miR-624-3p",937,1,"tiered",0.32809887208246,"High",416
+"PTEN","hsa-miR-4667-5p",935,1,"tiered",0.204679855309025,"Medium",417
+"PTEN","hsa-miR-548x-3p",934,2,"tiered",0.301090229728208,"Medium",418
+"PTEN","hsa-miR-299-5p",933,2,"tiered",0.247114984296492,"Medium",419
+"PTEN","hsa-miR-6509-5p",933,1,"tiered",0.192707869640555,"High",420
+"PTEN","hsa-miR-8089",932,1,"tiered",0.0846579933185514,"Medium",421
+"PTEN","hsa-miR-885-5p",931,2,"tiered",0.190646616413064,"Medium",422
+"PTEN","hsa-miR-5192",931,2,"tiered",0.337663769471744,"High",423
+"PTEN","hsa-miR-194-5p",931,1,"tiered",0.63998522827236,"High",424
+"PTEN","hsa-miR-208b-5p",930,3,"tiered",0.17211464192585,"High",425
+"PTEN","hsa-miR-140-3p.2",930,1,"tiered",NA,NA,426
+"PTEN","hsa-miR-7114-5p",929,2,"tiered",0.20632728762671,"High",427
+"PTEN","hsa-miR-216b-3p",928,2,"tiered",0.0762115514396905,"Medium",428
+"PTEN","hsa-miR-186-5p",927,3,"tiered",0.714288785605143,"High",429
+"PTEN","hsa-miR-3661",926,1,"tiered",0.433182566787496,"Very High",430
+"PTEN","hsa-miR-631",925,1,"tiered",0.569565957882289,"Very High",431
+"PTEN","hsa-miR-548ak",924,2,"tiered",0.443882682067394,"High",432
+"PTEN","hsa-miR-6738-3p",923,2,"tiered",0.133407894438158,"Medium",433
+"PTEN","hsa-miR-3943",923,1,"tiered",0.280035395960029,"High",434
+"PTEN","hsa-miR-4534",922,1,"tiered",0.332492032845749,"High",435
+"PTEN","hsa-miR-1301-3p",921,2,"tiered",0.322423710633454,"Medium",436
+"PTEN","hsa-miR-8082",921,1,"tiered",0.147246188806316,"Medium",437
+"PTEN","hsa-miR-4759",920,1,"tiered",0.235250252154763,"High",438
+"PTEN","hsa-miR-8063",919,3,"tiered",0.311477393910873,"High",439
+"PTEN","hsa-miR-363-5p",916,1,"tiered",0.212660461512213,"Medium",440
+"PTEN","hsa-miR-6745",915,1,"tiered",0.141697934174525,"Medium",441
+"PTEN","hsa-miR-1272",912,1,"tiered",0.512552449165837,"Very High",442
+"PTEN","hsa-miR-6838-5p",905,1,"tiered",0.110556297978872,"Low",443
+"PTEN","hsa-miR-548w",904,2,"tiered",0.4352020111188,"High",444
+"PTEN","hsa-miR-4765",903,1,"tiered",0.200953114650696,"High",445
+"PTEN","hsa-miR-6819-3p",902,1,"tiered",0.0420204726233775,"Low",446
+"PTEN","hsa-miR-6877-3p",901,1,"tiered",0.0411255508446861,"Low",447
+"PTEN","hsa-miR-373-3p",898,2,"tiered",0.569125449179487,"Medium",448
+"PTEN","hsa-miR-548bb-5p",897,2,"tiered",0.111911833285502,"Medium",449
+"PTEN","hsa-miR-466",897,2,"tiered",0.610736316313323,"Very High",450
+"PTEN","hsa-miR-875-3p",896,1,"tiered",0.460697554514635,"High",451
+"PTEN","hsa-miR-520a-5p",895,2,"tiered",0.554127328440825,"Very High",452
+"PTEN","hsa-miR-4301",895,1,"tiered",0.0859953906496164,"Medium",453
+"PTEN","hsa-miR-4670-3p",894,1,"tiered",0.137173156567176,"Medium",454
+"PTEN","hsa-miR-508-3p",892,2,"tiered",0.43779745340349,"High",455
+"PTEN","hsa-miR-5692a",891,2,"tiered",0.312124525900513,"Medium",456
+"PTEN","hsa-miR-4271",890,1,"tiered",0.122250260512315,"Low",457
+"PTEN","hsa-miR-4725-3p",889,1,"tiered",0.209513101417636,"Medium",458
+"PTEN","hsa-miR-525-5p",887,2,"tiered",0.51174512442952,"High",459
+"PTEN","hsa-miR-6780b-5p",887,1,"tiered",0.139540975883799,"Medium",460
+"PTEN","hsa-miR-6857-5p",886,1,"tiered",0.14013176605567,"Medium",461
+"PTEN","hsa-miR-3682-3p",885,1,"tiered",0.227904887289843,"High",462
+"PTEN","hsa-miR-5688",877,3,"tiered",0.553833800750277,"High",463
+"PTEN","hsa-miR-1914-5p",876,2,"tiered",0.512461088914241,"Very High",464
+"PTEN","hsa-miR-6511a-5p",868,2,"tiered",0.193518707171694,"Medium",465
+"PTEN","hsa-miR-548ae-3p",868,2,"tiered",0.27289050356032,"Medium",466
+"PTEN","hsa-miR-511-5p",864,2,"tiered",0.472293413145317,"High",467
+"PTEN","hsa-miR-382-5p",864,2,"tiered",0.667623707237866,"Very High",468
+"PTEN","hsa-miR-5582-3p",862,2,"tiered",0.267172899045638,"Medium",469
+"PTEN","hsa-miR-548am-3p",862,2,"tiered",0.311781090936626,"Medium",470
+"PTEN","hsa-miR-548ah-3p",862,2,"tiered",0.313115004551005,"Medium",471
+"PTEN","hsa-miR-548j-3p",859,2,"tiered",0.194578179102118,"Medium",472
+"PTEN","hsa-miR-1283",859,1,"tiered",0.425678346098973,"High",473
+"PTEN","hsa-miR-5047",858,2,"tiered",0.156316510042559,"Medium",474
+"PTEN","hsa-miR-3653-3p",856,1,"tiered",NA,NA,475
+"PTEN","hsa-miR-4693-5p",855,1,"tiered",0.203969295326103,"Medium",476
+"PTEN","hsa-miR-548aq-3p",853,2,"tiered",0.257476229402628,"Medium",477
+"PTEN","hsa-miR-1299",852,2,"tiered",0.39825472829773,"High",478
+"PTEN","hsa-miR-3613-5p",852,1,"tiered",0.415275190900585,"Very High",479
+"PTEN","hsa-miR-5187-5p",851,1,"tiered",0.266723610889247,"High",480
+"PTEN","hsa-miR-4699-3p",850,3,"tiered",0.270904728618544,"Medium",481
+"PTEN","hsa-miR-495-3p",848,3,"tiered",0.776724758535093,"Very High",482
+"PTEN","hsa-miR-488-5p",845,1,"tiered",0.25543634614576,"High",483
+"PTEN","hsa-miR-4490",842,1,"tiered",0.201202076088782,"High",484
+"PTEN","hsa-miR-1226-5p",841,2,"tiered",0.301171698075667,"Medium",485
+"PTEN","hsa-miR-548aw",839,2,"tiered",0.547371170618161,"Very High",486
+"PTEN","hsa-miR-3924",839,2,"tiered",0.553320488968637,"Very High",487
+"PTEN","hsa-miR-3936",837,1,"tiered",0.422390456795351,"Very High",488
+"PTEN","hsa-miR-6500-3p",836,2,"tiered",0.0993366061721968,"Medium",489
+"PTEN","hsa-miR-3941",835,3,"tiered",0.597423215847781,"Very High",490
+"PTEN","hsa-miR-1185-1-3p",835,2,"tiered",0.228091854437415,"Medium",491
+"PTEN","hsa-miR-7158-3p",835,1,"tiered",0.147407553853824,"High",492
+"PTEN","hsa-miR-4452",834,2,"tiered",0.271574050969623,"High",493
+"PTEN","hsa-miR-8083",834,1,"tiered",0.147703751999548,"High",494
+"PTEN","hsa-miR-28-3p",832,1,"tiered",0.160171724505617,"Medium",495
+"PTEN","hsa-miR-889-5p",831,1,"tiered",0.153107678542158,"High",496
+"PTEN","hsa-miR-7856-5p",830,2,"tiered",0.148906961447188,"Medium",497
+"PTEN","hsa-miR-17-3p",830,2,"tiered",0.418149557565778,"High",498
+"PTEN","hsa-miR-1185-2-3p",829,2,"tiered",0.230091157989048,"Medium",499
+"PTEN","hsa-miR-4641",828,1,"tiered",0.0966709265435131,"Medium",500
+"PTEN","hsa-miR-3671",827,2,"tiered",0.250976808486408,"Medium",501
+"PTEN","hsa-miR-3133",827,2,"tiered",0.395002883402098,"High",502
+"PTEN","hsa-miR-2110",827,1,"tiered",0.242490130791483,"Medium",503
+"PTEN","hsa-miR-4326",826,2,"tiered",0.340195522198265,"High",504
+"PTEN","hsa-miR-4766-5p",820,2,"tiered",0.213714023649695,"Medium",505
+"PTEN","hsa-miR-671-5p",820,1,"tiered",0.407532822441402,"Medium",506
+"PTEN","hsa-miR-302c-3p.1",816,1,"tiered",NA,NA,507
+"PTEN","hsa-miR-10b-3p",810,2,"tiered",0.226798202737677,"High",508
+"PTEN","hsa-miR-520b",810,1,"tiered",NA,NA,509
+"PTEN","hsa-miR-520e",807,1,"tiered",NA,NA,510
+"PTEN","hsa-miR-222-5p",806,1,"tiered",0.346991449880529,"High",511
+"PTEN","hsa-miR-105-5p",804,2,"tiered",0.501793622924318,"High",512
+"PTEN","hsa-miR-6083",803,2,"tiered",0.236979846340844,"High",513
+"PTEN","hsa-miR-1294",803,1,"tiered",0.462360154186022,"High",514
+"PTEN","hsa-miR-510-3p",802,2,"tiered",0.173429861177848,"Medium",515
+"PTEN","hsa-miR-5010-3p",801,2,"tiered",0.453710840487517,"Very High",516
+"PTEN","hsa-miR-4433a-5p",801,1,"tiered",0.0302450406459524,"Low",517
+"PTEN","hsa-miR-1972",800,1,"tiered",0.13680741695531,"Medium",518
+"PTEN","hsa-miR-6806-5p",797,1,"tiered",0.0933595531292464,"Medium",519
+"PTEN","hsa-miR-6830-3p",796,2,"tiered",0.0912095602210983,"Medium",520
+"PTEN","hsa-miR-4768-3p",791,1,"tiered",0.329662113312537,"High",521
+"PTEN","hsa-miR-4471",789,2,"tiered",0.203052149196985,"High",522
+"PTEN","hsa-miR-4428",789,1,"tiered",0.289847279988587,"Medium",523
+"PTEN","hsa-miR-6844",788,2,"tiered",0.151901449557012,"Medium",524
+"PTEN","hsa-miR-5579-3p",788,1,"tiered",0.167132286797143,"Medium",525
+"PTEN","hsa-miR-8066",787,2,"tiered",0.0345417035413189,"Low",526
+"PTEN","hsa-miR-302c-5p",785,2,"tiered",0.389178390046787,"High",527
+"PTEN","hsa-miR-4307",784,2,"tiered",0.21699200388857,"Medium",528
+"PTEN","hsa-miR-6757-3p",781,2,"tiered",0.115460304350334,"Medium",529
+"PTEN","hsa-miR-4427",781,1,"tiered",0.12940883188989,"Medium",530
+"PTEN","hsa-miR-551b-5p",780,2,"tiered",0.545434467518106,"High",531
+"PTEN","hsa-miR-1256",780,1,"tiered",0.450515467354565,"High",532
+"PTEN","hsa-miR-20a-3p",779,2,"tiered",0.310153987899318,"High",533
+"PTEN","hsa-miR-7160-3p",779,1,"tiered",0.148077953733839,"High",534
+"PTEN","hsa-miR-127-5p",778,1,"tiered",0.445108384179579,"High",535
+"PTEN","hsa-miR-6079",777,2,"tiered",0.109659645966333,"Medium",536
+"PTEN","hsa-miR-433-3p",776,2,"tiered",0.328873834437522,"Medium",537
+"PTEN","hsa-miR-3183",775,1,"tiered",0.312361218411841,"High",538
+"PTEN","hsa-miR-6835-3p",774,2,"tiered",0.211116212974076,"Medium",539
+"PTEN","hsa-miR-340-5p",774,2,"tiered",0.542964672131553,"High",540
+"PTEN","hsa-miR-653-5p",773,3,"tiered",0.716663544159243,"Very High",541
+"PTEN","hsa-miR-6884-5p",773,2,"tiered",0.271975458136524,"High",542
+"PTEN","hsa-miR-4723-3p",773,1,"tiered",0.17547250714769,"Medium",543
+"PTEN","hsa-miR-6769b-3p",771,1,"tiered",0.128645612435268,"Medium",544
+"PTEN","hsa-miR-215-3p",768,2,"tiered",0.168784324540912,"High",545
+"PTEN","hsa-miR-3127-3p",766,1,"tiered",0.301612093093026,"High",546
+"PTEN","hsa-miR-8059",765,2,"tiered",0.183236758548511,"High",547
+"PTEN","hsa-miR-4720-5p",763,1,"tiered",0.0775011588113453,"Medium",548
+"PTEN","hsa-miR-4799-3p",762,1,"tiered",0.105467819066371,"Medium",549
+"PTEN","hsa-miR-5588-5p",761,1,"tiered",0.104161448962013,"Medium",550
+"PTEN","hsa-miR-5697",759,2,"tiered",0.323305414047103,"High",551
+"PTEN","hsa-miR-4310",759,2,"tiered",0.370842120496739,"Very High",552
+"PTEN","hsa-miR-6756-3p",759,1,"tiered",0.173216212800103,"Medium",553
+"PTEN","hsa-miR-3065-5p",757,1,"tiered",0.155114898209227,"Medium",554
+"PTEN","hsa-miR-596",756,2,"tiered",0.269300680924263,"Medium",555
+"PTEN","hsa-miR-4666b",756,2,"tiered",0.224730761294685,"Medium",556
+"PTEN","hsa-miR-4436b-5p",756,2,"tiered",0.451913660998322,"Very High",557
+"PTEN","hsa-miR-3143",755,2,"tiered",0.276128426105422,"Medium",558
+"PTEN","hsa-miR-4421",755,1,"tiered",0.128089224085574,"Medium",559
+"PTEN","hsa-miR-573",754,2,"tiered",0.306482187226161,"Medium",560
+"PTEN","hsa-miR-5699-3p",753,1,"tiered",0.181660833101665,"Medium",561
+"PTEN","hsa-miR-548bc",752,2,"tiered",0.177360474061384,"High",562
+"PTEN","hsa-miR-4668-3p",752,2,"tiered",0.295819999813967,"Medium",563
+"PTEN","hsa-miR-513c-5p",751,2,"tiered",0.407531036509667,"High",564
+"PTEN","hsa-miR-4724-5p",751,2,"tiered",0.241059257936786,"High",565
+"PTEN","hsa-miR-4667-3p",751,1,"tiered",0.18268351090183,"Medium",566
+"PTEN","hsa-miR-7854-3p",750,1,"tiered",0.0498260424803562,"Low",567
+"PTEN","hsa-miR-3120-3p",748,2,"tiered",0.429066009470976,"High",568
+"PTEN","hsa-miR-610",748,1,"tiered",0.228114611986032,"Medium",569
+"PTEN","hsa-miR-1244",747,2,"tiered",0.562011405308077,"Very High",570
+"PTEN","hsa-miR-4436a",747,1,"tiered",0.12030658002535,"Medium",571
+"PTEN","hsa-miR-6888-3p",746,2,"tiered",0.212343318383785,"High",572
+"PTEN","hsa-miR-5000-3p",746,1,"tiered",0.116213003123159,"Medium",573
+"PTEN","hsa-miR-4519",741,1,"tiered",0.220443324140269,"High",574
+"PTEN","hsa-miR-7853-5p",740,2,"tiered",0.150899026310752,"Medium",575
+"PTEN","hsa-miR-544a",740,1,"tiered",0.118970294577921,"Medium",576
+"PTEN","hsa-miR-6124",739,3,"tiered",0.28531213595576,"High",577
+"PTEN","hsa-miR-549a",739,1,"tiered",NA,NA,578
+"PTEN","hsa-miR-7852-3p",737,1,"tiered",0.0546178934782148,"Medium",579
+"PTEN","hsa-miR-548aa",734,2,"tiered",0.23097458593448,"Medium",580
+"PTEN","hsa-miR-8060",734,1,"tiered",0.25336526714368,"Very High",581
+"PTEN","hsa-miR-548t-3p",733,2,"tiered",0.23124840909425,"Medium",582
+"PTEN","hsa-miR-3152-3p",733,1,"tiered",0.233768754630821,"High",583
+"PTEN","hsa-miR-183-3p",729,2,"tiered",0.40304108881638,"High",584
+"PTEN","hsa-miR-6818-5p",729,1,"tiered",0.0784537304496669,"Medium",585
+"PTEN","hsa-miR-4729",728,3,"tiered",0.295257395055242,"Medium",586
+"PTEN","hsa-miR-873-5p.2",728,1,"tiered",NA,NA,587
+"PTEN","hsa-miR-548ap-3p",725,2,"tiered",0.207217236837783,"Medium",588
+"PTEN","hsa-miR-4513",725,1,"tiered",0.107014487302856,"Medium",589
+"PTEN","hsa-miR-499a-3p",724,2,"tiered",0.0961471673205163,"Medium",590
+"PTEN","hsa-miR-4715-5p",723,1,"tiered",0.17245205744347,"High",591
+"PTEN","hsa-miR-6855-3p",722,1,"tiered",0.0333124220110668,"Medium",592
+"PTEN","hsa-miR-587",721,2,"tiered",0.380565602863213,"Medium",593
+"PTEN","hsa-miR-7157-5p",721,1,"tiered",0.195322585935292,"High",594
+"PTEN","hsa-miR-4766-3p",720,2,"tiered",0.372063669352559,"High",595
+"PTEN","hsa-miR-4494",719,1,"tiered",0.348529391177672,"Very High",596
+"PTEN","hsa-miR-4795-5p",718,1,"tiered",0.086828976611119,"Medium",597
+"PTEN","hsa-miR-7109-3p",716,2,"tiered",0.0700925082556931,"Medium",598
+"PTEN","hsa-miR-362-3p",716,2,"tiered",0.468606350338589,"High",599
+"PTEN","hsa-miR-1238-3p",715,1,"tiered",0.474476991346037,"Very High",600
+"PTEN","hsa-miR-6889-3p",714,2,"tiered",0.170176849637547,"High",601
+"PTEN","hsa-miR-5587-5p",713,2,"tiered",0.169307149468628,"High",602
+"PTEN","hsa-miR-4643",712,2,"tiered",0.210076687216435,"Medium",603
+"PTEN","hsa-miR-520f-5p",711,1,"tiered",0.0496753636553458,"Medium",604
+"PTEN","hsa-miR-1252-5p",710,1,"tiered",0.353089060179638,"Medium",605
+"PTEN","hsa-miR-3529-3p",707,2,"tiered",0.472679911939819,"High",606
+"PTEN","hsa-miR-329-3p",707,2,"tiered",0.481073129271158,"High",607
+"PTEN","hsa-miR-4637",706,1,"tiered",0.0864437228568006,"Medium",608
+"PTEN","hsa-miR-6508-5p",704,1,"tiered",0.159811419858942,"Medium",609
+"PTEN","hsa-miR-8067",703,1,"tiered",0.153342118656967,"Medium",610
+"PTEN","hsa-miR-4742-3p",700,1,"tiered",0.216929442773319,"Medium",611
+"PTEN","hsa-miR-4786-3p",699,1,"tiered",0.15729672515996,"Medium",612
+"PTEN","hsa-miR-514b-5p",695,2,"tiered",0.406709127216222,"Very High",613
+"PTEN","hsa-miR-499b-3p",693,2,"tiered",0.205431977544098,"Medium",614
+"PTEN","hsa-miR-6815-3p",693,1,"tiered",0.268996998619852,"Very High",615
+"PTEN","hsa-miR-4761-3p",692,2,"tiered",0.110564224898814,"Medium",616
+"PTEN","hsa-miR-144-5p",690,2,"tiered",0.181550783851674,"High",617
+"PTEN","hsa-miR-129-5p",687,2,"tiered",0.428485504064803,"Medium",618
+"PTEN","hsa-miR-6890-5p",687,1,"tiered",0.142412905436151,"Medium",619
+"PTEN","hsa-miR-498",684,1,"tiered",NA,NA,620
+"PTEN","hsa-miR-3121-3p",683,2,"tiered",0.357688081458193,"Medium",621
+"PTEN","hsa-miR-7159-5p",683,1,"tiered",0.0658832040825977,"Medium",622
+"PTEN","hsa-miR-4711-5p",682,1,"tiered",0.169381451909945,"Medium",623
+"PTEN","hsa-miR-1207-5p",679,1,"tiered",0.24702388289757,"Medium",624
+"PTEN","hsa-miR-411-3p",678,2,"tiered",0.153346765651646,"Medium",625
+"PTEN","hsa-miR-4763-3p",678,1,"tiered",0.169771321598014,"Low",626
+"PTEN","hsa-miR-379-3p",677,2,"tiered",0.155166802363214,"Medium",627
+"PTEN","hsa-miR-6740-3p",677,1,"tiered",0.120174105297154,"Medium",628
+"PTEN","hsa-miR-155-5p",676,2,"tiered",0.330724525092551,"Medium",629
+"PTEN","hsa-miR-1470",676,1,"tiered",0.209357849727188,"High",630
+"PTEN","hsa-miR-182-5p",675,1,"tiered",0.305554716965091,"Medium",631
+"PTEN","sfv-miR-S5-5p",674,1,"tiered",NA,NA,632
+"PTEN","hsa-miR-3153",673,2,"tiered",0.277706154303399,"Medium",633
+"PTEN","hsa-miR-4671-3p",671,2,"tiered",0.436086348423953,"Very High",634
+"PTEN","hsa-miR-6888-5p",669,2,"tiered",0.172331997852953,"Medium",635
+"PTEN","sfv-miR-S1-3p",669,1,"tiered",NA,NA,636
+"PTEN","hsa-miR-6503-3p",668,1,"tiered",0.0884201046096422,"Medium",637
+"PTEN","hsa-miR-6858-3p",667,1,"tiered",0.0644400449391533,"Low",638
+"PTEN","hsa-miR-1267",666,1,"tiered",0.13316652271902,"Medium",639
+"PTEN","hsa-miR-8075",664,2,"tiered",0.133061791291078,"Medium",640
+"PTEN","hsa-miR-4253",661,1,"tiered",0.118474773225242,"Medium",641
+"PTEN","hsa-miR-892c-5p",660,2,"tiered",0.195267056364309,"High",642
+"PTEN","hsa-miR-6862-5p",659,1,"tiered",0.0384200052602941,"Low",643
+"PTEN","hsa-miR-7159-3p",658,2,"tiered",0.169991519663317,"High",644
+"PTEN","hsa-miR-187-5p",658,1,"tiered",0.358667805131348,"High",645
+"PTEN","hsa-miR-320a",657,1,"tiered",NA,NA,646
+"PTEN","hsa-miR-578",654,2,"tiered",0.549934505643481,"Very High",647
+"PTEN","hsa-miR-424-3p",653,2,"tiered",0.349972533442254,"Very High",648
+"PTEN","hsa-miR-378g",653,1,"tiered",0.0804075947199484,"Medium",649
+"PTEN","hsa-miR-4687-3p",651,1,"tiered",0.32958079628146,"High",650
+"PTEN","hsa-miR-888-3p",650,1,"tiered",0.286283904075344,"High",651
+"PTEN","hsa-miR-605-3p",649,2,"tiered",0.163156322714937,"Medium",652
+"PTEN","hsa-miR-1197",649,1,"tiered",0.359295402336116,"High",653
+"PTEN","hsa-miR-3934-5p",647,1,"tiered",0.262981950789556,"Medium",654
+"PTEN","hsa-miR-1298-5p",643,2,"tiered",0.382215058537318,"High",655
+"PTEN","hsa-miR-6516-3p",641,1,"tiered",0.0709811305775768,"Medium",656
+"PTEN","hsa-miR-34a-5p",640,1,"tiered",0.354470855321784,"Medium",657
+"PTEN","hsa-miR-34c-5p",639,1,"tiered",0.509640250865912,"High",658
+"PTEN","hsa-miR-449a",638,1,"tiered",0.430379175579859,"Medium",659
+"PTEN","kshv-miR-K12-3-5p",637,1,"tiered",NA,NA,660
+"PTEN","hsa-miR-449b-5p",637,1,"tiered",0.301870929606122,"Medium",661
+"PTEN","hsa-miR-323b-3p",636,2,"tiered",0.365928335847625,"Very High",662
+"PTEN","hsa-miR-4684-3p",636,1,"tiered",0.117962675100181,"Medium",663
+"PTEN","hsa-miR-493-3p",635,1,"tiered",0.142097670951826,"Medium",664
+"PTEN","hsa-miR-516b-5p",634,1,"tiered",0.359230292106753,"High",665
+"PTEN","hsa-miR-208a-5p",633,3,"tiered",0.195161760628439,"High",666
+"PTEN","hsa-miR-545-3p",633,1,"tiered",0.653757581664379,"High",667
+"PTEN","hsa-miR-498-5p",633,1,"tiered",0.603941708779355,"High",668
+"PTEN","hsa-miR-151a-3p",632,1,"tiered",0.542481006656307,"Very High",669
+"PTEN","hsa-let-7f-2-3p",630,2,"tiered",0.307879866190361,"Medium",670
+"PTEN","hsa-miR-490-5p",629,1,"tiered",0.0957572331632558,"Medium",671
+"PTEN","hsa-miR-6507-3p",628,1,"tiered",0.137533004788469,"Medium",672
+"PTEN","hsa-miR-1284",627,1,"tiered",0.137838096143554,"Medium",673
+"PTEN","hsa-miR-328-3p",626,1,"tiered",0.637493384790312,"Very High",674
+"PTEN","hsa-miR-943",625,1,"tiered",0.341548170774658,"High",675
+"PTEN","hsa-miR-218-5p",624,1,"tiered",0.360695326261771,"Medium",676
+"PTEN","hsa-miR-4502",623,1,"tiered",0.133979010588641,"Medium",677
+"PTEN","hsa-miR-3662",622,2,"tiered",0.406650778808725,"Medium",678
+"PTEN","hsa-miR-485-5p",621,1,"tiered",0.71992042994025,"Very High",679
+"PTEN","hsa-miR-580-3p",620,2,"tiered",0.413499412334079,"High",680
+"PTEN","hsa-miR-4717-3p",620,2,"tiered",0.147589921961752,"Medium",681
+"PTEN","hsa-miR-6074",620,1,"tiered",0.240531031490878,"High",682
+"PTEN","hsa-miR-224-5p",618,1,"tiered",0.543007428504784,"High",683
+"PTEN","ebv-miR-BART9-3p",618,1,"tiered",NA,NA,684
+"PTEN","hsa-miR-3675-5p",617,1,"tiered",0.286308359509789,"High",685
+"PTEN","hsa-miR-4782-3p",616,2,"tiered",0.331375422892127,"High",686
+"PTEN","hsa-miR-9983-3p",616,1,"tiered",0.0136572008604557,"Low",687
+"PTEN","hsa-miR-4660",615,2,"tiered",0.197314145462516,"Medium",688
+"PTEN","hsa-miR-4476",614,2,"tiered",0.284040587888167,"Medium",689
+"PTEN","hsa-miR-4789-5p",613,2,"tiered",0.438784655134939,"High",690
+"PTEN","hsa-miR-676-5p",612,3,"tiered",0.249940390155441,"Medium",691
+"PTEN","hsa-miR-942-3p",612,1,"tiered",0.0388080434185841,"Medium",692
+"PTEN","hsa-miR-1343-5p",611,1,"tiered",0.126525822236558,"Medium",693
+"PTEN","hsa-miR-181a-2-3p",610,1,"tiered",0.108979690572907,"Medium",694
+"PTEN","hsa-miR-410-3p",609,2,"tiered",0.464307132131223,"High",695
+"PTEN","hsa-miR-556-3p",609,1,"tiered",0.137575015956258,"Medium",696
+"PTEN","hsa-miR-6832-3p",608,1,"tiered",0.209153119052755,"High",697
+"PTEN","hsa-miR-527",607,2,"tiered",0.531021354045965,"High",698
+"PTEN","hsa-miR-518a-5p",607,2,"tiered",0.61815460993161,"High",699
+"PTEN","hsa-miR-6857-3p",607,1,"tiered",0.0475392394618278,"Medium",700
+"PTEN","hsa-miR-12135",607,1,"tiered",NA,NA,701
+"PTEN","hsa-miR-4517",606,2,"tiered",0.199874662855294,"Medium",702
+"PTEN","hsa-miR-939-5p",606,1,"tiered",0.492896029552109,"High",703
+"PTEN","hsa-miR-1273f",605,1,"tiered",NA,NA,704
+"PTEN","hsa-miR-365a-3p",603,1,"tiered",0.504805165494483,"High",705
+"PTEN","hsa-miR-6864-3p",602,2,"tiered",0.0619866605280666,"Medium",706
+"PTEN","hsa-miR-365b-3p",602,1,"tiered",0.306584187134722,"High",707
+"PTEN","hsa-miR-15b-3p",600,1,"tiered",0.319919307382182,"High",708
+"PTEN","hsa-miR-6876-5p",599,2,"tiered",0.153247771449927,"Medium",709
+"PTEN","hsa-miR-3672",599,1,"tiered",0.414480447631539,"Very High",710
+"PTEN","hsa-miR-452-3p",598,1,"tiered",0.0403112405222597,"Low",711
+"PTEN","ebv-miR-BART2-5p",598,1,"tiered",NA,NA,712
+"PTEN","hsa-miR-6731-3p",597,1,"tiered",0.051972836273348,"Medium",713
+"PTEN","hsa-miR-3665",595,2,"tiered",0.167252434222847,"Medium",714
+"PTEN","hsa-miR-219a-5p",595,2,"tiered",0.421409298614464,"High",715
+"PTEN","hsa-miR-153-3p",595,1,"tiered",0.795863633763169,"High",716
+"PTEN","hsa-miR-298",594,1,"tiered",0.548213238257882,"High",717
+"PTEN","hsa-miR-548ad-3p",593,2,"tiered",0.181618702844703,"Medium",718
+"PTEN","ebv-miR-BHRF1-2-5p",592,1,"tiered",NA,NA,719
+"PTEN","kshv-miR-K12-4-3p",590,1,"tiered",NA,NA,720
+"PTEN","hsa-miR-6165",589,2,"tiered",0.156586148442678,"Medium",721
+"PTEN","hsa-miR-5191",589,1,"tiered",0.0606354223424594,"Low",722
+"PTEN","hsa-miR-3646",588,2,"tiered",0.225537930121701,"Medium",723
+"PTEN","hsa-miR-5187-3p",587,2,"tiered",0.191566631002149,"High",724
+"PTEN","hsa-miR-6740-5p",587,1,"tiered",0.0898403419015607,"Medium",725
+"PTEN","hsa-miR-4289",586,1,"tiered",0.313743184827552,"High",726
+"PTEN","hsa-miR-4633-3p",585,1,"tiered",0.179377281807454,"High",727
+"PTEN","hsa-miR-323a-3p",584,2,"tiered",0.194383213647327,"Medium",728
+"PTEN","hsa-miR-4793-5p",583,1,"tiered",0.158283025295988,"Medium",729
+"PTEN","hsa-miR-6500-5p",582,1,"tiered",0.174965973801425,"High",730
+"PTEN","hsa-miR-4735-3p",582,1,"tiered",0.171719872231275,"Medium",731
+"PTEN","hsa-miR-5700",581,2,"tiered",0.240108208064868,"Medium",732
+"PTEN","hsa-miR-374b-3p",578,1,"tiered",0.243650674187154,"Medium",733
+"PTEN","hsa-miR-4716-5p",576,1,"tiered",0.234825150669791,"High",734
+"PTEN","hsa-miR-7154-5p",573,1,"tiered",0.0776663660183039,"Medium",735
+"PTEN","hsa-miR-499a-5p",572,2,"tiered",0.406187265171526,"High",736
+"PTEN","hsa-miR-193a-5p",572,1,"tiered",0.204487571580244,"Medium",737
+"PTEN","hsa-miR-6871-3p",571,2,"tiered",0.071809405466169,"Medium",738
+"PTEN","hsa-miR-4474-5p",571,1,"tiered",0.0777342136128678,"Medium",739
+"PTEN","hsa-miR-548b-3p",568,1,"tiered",0.405694226605864,"High",740
+"PTEN","hsa-miR-593-3p",567,2,"tiered",0.171497761744618,"Medium",741
+"PTEN","hsa-miR-647",566,1,"tiered",0.235038839996585,"Medium",742
+"PTEN","hsa-miR-12136",565,1,"tiered",0.0325942403998947,"Low",743
+"PTEN","hsa-miR-1182",564,1,"tiered",0.171963956303425,"Medium",744
+"PTEN","hsa-miR-3918",563,1,"tiered",0.367061403532531,"High",745
+"PTEN","hsa-miR-3146",562,2,"tiered",0.136401167606353,"Medium",746
+"PTEN","hsa-miR-224-3p",562,2,"tiered",0.229799479986816,"Medium",747
+"PTEN","hsa-miR-132-3p",562,2,"tiered",0.685809828451254,"High",748
+"PTEN","hsa-miR-4499",562,1,"tiered",0.264833811257466,"High",749
+"PTEN","hsa-miR-891a-3p",559,1,"tiered",0.157673895271351,"Medium",750
+"PTEN","hbv-miR-B8-3p",558,1,"tiered",NA,NA,751
+"PTEN","hsa-miR-3925-3p",557,1,"tiered",0.207533721918059,"Medium",752
+"PTEN","hsa-miR-5687",556,1,"tiered",0.156645810210913,"High",753
+"PTEN","hsa-miR-212-3p",552,2,"tiered",0.715621369550708,"Very High",754
+"PTEN","hsa-miR-4712-5p",551,2,"tiered",0.183045226368802,"Medium",755
+"PTEN","hsa-miR-1199-5p",551,1,"tiered",0.102446825652077,"Medium",756
+"PTEN","hsa-miR-7849-3p",550,3,"tiered",0.167502323907464,"High",757
+"PTEN","hsa-miR-28-5p",550,1,"tiered",0.502180892197273,"High",758
+"PTEN","hsa-miR-3139",549,1,"tiered",0.116985273382399,"Medium",759
+"PTEN","hsa-miR-520d-5p",548,2,"tiered",0.526146335922465,"High",760
+"PTEN","hsa-miR-3618",548,1,"tiered",0.0608849617010109,"Medium",761
+"PTEN","hsa-miR-4450",547,1,"tiered",0.190934456169529,"High",762
+"PTEN","hsa-miR-524-5p",546,2,"tiered",0.567817823088473,"High",763
+"PTEN","hsa-miR-6751-3p",545,1,"tiered",0.149022131884764,"High",764
+"PTEN","hsa-miR-708-5p",544,1,"tiered",0.581949474463499,"High",765
+"PTEN","hsa-miR-4756-3p",541,1,"tiered",0.30355391170027,"High",766
+"PTEN","hsa-miR-503-5p",540,1,"tiered",0.263914900864299,"Medium",767
+"PTEN","hsa-miR-6733-5p",539,1,"tiered",0.231284291193395,"Medium",768
+"PTEN","hsa-miR-3200-5p",538,2,"tiered",0.327331269964688,"High",769
+"PTEN","hsa-miR-6739-5p",538,1,"tiered",0.205824211649213,"Medium",770
+"PTEN","hsa-miR-6883-3p",537,1,"tiered",0.0626906316253374,"Medium",771
+"PTEN","hsa-let-7a-2-3p",536,1,"tiered",0.292275391274025,"High",772
+"PTEN","hsa-let-7g-3p",535,1,"tiered",0.273188509832493,"Medium",773
+"PTEN","hsa-miR-125a-3p",534,1,"tiered",0.28149084152775,"Medium",774
+"PTEN","hsa-miR-1287-3p",533,1,"tiered",0.128051698797188,"High",775
+"PTEN","hsa-miR-200b-3p",532,1,"tiered",0.680410572513757,"High",776
+"PTEN","hsa-miR-200c-3p",531,1,"tiered",0.709039905779807,"High",777
+"PTEN","hsa-miR-429",528,1,"tiered",0.772378578307207,"High",778
+"PTEN","hsa-miR-4503",527,1,"tiered",0.110213792526108,"Medium",779
+"PTEN","hsa-miR-4653-3p",526,1,"tiered",0.160527214546593,"Medium",780
+"PTEN","hsa-miR-548g-3p",523,1,"tiered",0.3772421946278,"Medium",781
+"PTEN","hsa-miR-411-5p.1",522,1,"tiered",NA,NA,782
+"PTEN","hsa-miR-10526-3p",522,1,"tiered",0.0867897433211525,"Medium",783
+"PTEN","hsa-miR-10523-5p",521,2,"tiered",0.128023100886331,"High",784
+"PTEN","hsv2-miR-H6-5p",521,1,"tiered",NA,NA,785
+"PTEN","hsa-miR-297",519,2,"tiered",0.421484987021889,"High",786
+"PTEN","hsa-miR-580-5p",518,2,"tiered",0.12241000857222,"Medium",787
+"PTEN","hsa-miR-1291",518,1,"tiered",0.14956132604812,"Medium",788
+"PTEN","hsa-miR-4723-5p",517,1,"tiered",0.27230074258123,"Medium",789
+"PTEN","hsa-miR-500a-5p",516,2,"tiered",0.402577131299063,"High",790
+"PTEN","hsa-miR-501-3p",516,1,"tiered",0.111112018419657,"Medium",791
+"PTEN","hsa-miR-502-3p",515,1,"tiered",0.0961919508074092,"Medium",792
+"PTEN","hsa-miR-5698",514,1,"tiered",0.26796800055183,"Medium",793
+"PTEN","hsa-miR-10393-3p",514,1,"tiered",NA,NA,794
+"PTEN","hsa-miR-6775-3p",513,1,"tiered",0.0567327262908128,"Medium",795
+"PTEN","hsa-miR-6870-5p",512,1,"tiered",0.168240465151862,"Medium",796
+"PTEN","hsa-miR-7111-5p",511,1,"tiered",0.140208527828651,"Medium",797
+"PTEN","kshv-miR-K12-2-5p",510,1,"tiered",NA,NA,798
+"PTEN","hsa-miR-296-3p",510,1,"tiered",0.664514634659039,"Very High",799
+"PTEN","hsa-miR-4461",509,1,"tiered",NA,NA,800
+"PTEN","hsa-miR-4787-5p",508,1,"tiered",0.113669226918199,"Medium",801
+"PTEN","hsa-miR-3173-3p",507,2,"tiered",0.208499090421272,"Medium",802
+"PTEN","hsa-miR-5008-3p",507,1,"tiered",0.164532968864332,"Medium",803
+"PTEN","hsa-miR-6737-3p",506,1,"tiered",0.0938969159645052,"Medium",804
+"PTEN","hsa-miR-6760-3p",505,1,"tiered",0.030030898918343,"Low",805
+"PTEN","hsa-miR-7850-5p",504,2,"tiered",0.134657417620763,"Medium",806
+"PTEN","hsa-miR-7157-3p",504,1,"tiered",0.140257352545178,"Medium",807
+"PTEN","hsa-miR-7161-5p",502,2,"tiered",0.0962389299207946,"Medium",808
+"PTEN","hsa-miR-6882-5p",502,2,"tiered",0.125065620777289,"Medium",809
+"PTEN","hsa-miR-1468-5p",501,1,"tiered",0.132193292215543,"Medium",810
+"PTEN","hsa-miR-6847-5p",500,2,"tiered",0.199493087923416,"Medium",811
+"PTEN","ebv-miR-BART19-5p",500,1,"tiered",NA,NA,812
+"PTEN","hsa-miR-4423-5p",498,1,"tiered",0.186798762518254,"High",813
+"PTEN","hsa-miR-12123",496,1,"tiered",NA,NA,814
+"PTEN","hsa-miR-3159",495,2,"tiered",0.221396949371253,"Medium",815
+"PTEN","hsa-miR-140-3p.1",495,1,"tiered",NA,NA,816
+"PTEN","hsa-miR-451b",494,1,"tiered",0.13225311734942,"Medium",817
+"PTEN","hsa-miR-4782-5p",493,1,"tiered",0.208819513792955,"Medium",818
+"PTEN","hsa-miR-5706",492,1,"tiered",0.196525000127726,"Medium",819
+"PTEN","hsa-miR-604",491,1,"tiered",0.113842818822409,"Medium",820
+"PTEN","hsa-miR-569",489,1,"tiered",0.611618863101352,"Very High",821
+"PTEN","hsa-miR-139-5p",486,1,"tiered",0.606117253506518,"High",822
+"PTEN","hsa-miR-18a-3p",485,1,"tiered",0.124524852928349,"Medium",823
+"PTEN","hsa-miR-3929",483,1,"tiered",0.59155326031949,"Very High",824
+"PTEN","hsa-miR-4419b",482,1,"tiered",NA,NA,825
+"PTEN","hsa-miR-4478",481,1,"tiered",0.345969690088684,"High",826
+"PTEN","hsa-miR-649",480,2,"tiered",0.503234009641242,"Very High",827
+"PTEN","hsa-miR-556-5p",480,1,"tiered",0.147325831818469,"Medium",828
+"PTEN","hsa-let-7c-3p",479,1,"tiered",0.0761413044871959,"Medium",829
+"PTEN","hsa-miR-4744",478,2,"tiered",0.327803281805933,"High",830
+"PTEN","hsa-miR-4267",478,1,"tiered",0.144902262312586,"Medium",831
+"PTEN","hsa-miR-4515",477,1,"tiered",0.0401280974957369,"Low",832
+"PTEN","hsa-miR-4796-5p",476,1,"tiered",0.0882338122095745,"Medium",833
+"PTEN","hsa-miR-6134",475,1,"tiered",0.133947869894787,"Medium",834
+"PTEN","hsa-miR-103b",474,1,"tiered",0.154024581906474,"Medium",835
+"PTEN","hsa-miR-5189-3p",473,2,"tiered",0.045684349316346,"Medium",836
+"PTEN","hsa-miR-4520-3p",472,2,"tiered",0.121817263304406,"Medium",837
+"PTEN","ebv-miR-BART5-5p",470,1,"tiered",NA,NA,838
+"PTEN","hsa-miR-637",469,1,"tiered",0.128073730260317,"Low",839
+"PTEN","hsa-miR-891b",466,2,"tiered",0.268079858779598,"Medium",840
+"PTEN","hsa-miR-218-2-3p",466,1,"tiered",0.274222083068511,"High",841
+"PTEN","hsa-miR-4721",463,1,"tiered",0.118527964654963,"Medium",842
+"PTEN","hsa-miR-505-3p.2",461,1,"tiered",NA,NA,843
+"PTEN","hsa-miR-8062",459,1,"tiered",0.0625522440415064,"Medium",844
+"PTEN","hsa-miR-1298-3p",458,1,"tiered",0.0194961074253893,"Low",845
+"PTEN","hsa-miR-15a-3p",457,1,"tiered",0.0766522719074557,"Low",846
+"PTEN","hsa-miR-4505",456,1,"tiered",0.159516561481091,"Medium",847
+"PTEN","hsa-miR-5787",455,1,"tiered",0.154714951603612,"Medium",848
+"PTEN","hsa-miR-320a-3p",455,1,"tiered",0.73837258669578,"Very High",849
+"PTEN","hsa-miR-522-3p",453,2,"tiered",0.276040327725543,"Medium",850
+"PTEN","hsa-miR-1179",452,1,"tiered",0.602903420777245,"Very High",851
+"PTEN","hcmv-miR-US29-5p",452,1,"tiered",NA,NA,852
+"PTEN","hsa-miR-6766-3p",451,2,"tiered",0.0182765739437717,"Low",853
+"PTEN","hsa-miR-3156-3p",450,1,"tiered",0.0250019251005937,"Low",854
+"PTEN","hsa-miR-4445-5p",449,1,"tiered",0.120135049346283,"Medium",855
+"PTEN","hsa-miR-4774-3p",448,1,"tiered",0.16520632168817,"High",856
+"PTEN","hsa-miR-873-3p",446,1,"tiered",0.113863245937059,"Medium",857
+"PTEN","hsa-miR-892b",445,1,"tiered",0.179912792636806,"Medium",858
+"PTEN","hsa-miR-586",444,2,"tiered",0.543503860633684,"Very High",859
+"PTEN","hsv2-miR-H11-3p",444,1,"tiered",NA,NA,860
+"PTEN","hsa-miR-4735-5p",443,2,"tiered",0.338792993905275,"High",861
+"PTEN","hsa-miR-2392",441,1,"tiered",0.201633210246906,"Medium",862
+"PTEN","hsa-miR-548az-5p",438,2,"tiered",0.23083790547675,"Medium",863
+"PTEN","hsv1-miR-H11",438,1,"tiered",NA,NA,864
+"PTEN","hsa-miR-4530",438,1,"tiered",0.0803839713288918,"Low",865
+"PTEN","hsa-miR-4711-3p",437,1,"tiered",0.0982338449162,"Medium",866
+"PTEN","ebv-miR-BART22",437,1,"tiered",NA,NA,867
+"PTEN","hsa-miR-548ah-5p",436,2,"tiered",0.244036394651136,"Medium",868
+"PTEN","hsa-miR-548at-5p",436,1,"tiered",0.265742093983372,"Medium",869
+"PTEN","hsa-miR-6851-3p",435,1,"tiered",0.0916440103748418,"Medium",870
+"PTEN","hsa-miR-10395-3p",435,1,"tiered",0.0425740334995331,"Medium",871
+"PTEN","hsa-miR-6891-5p",434,1,"tiered",0.133810159357706,"Medium",872
+"PTEN","hsa-miR-4790-3p",430,1,"tiered",0.268420611234102,"High",873
+"PTEN","hsa-miR-508-5p",429,1,"tiered",0.132364940558806,"Medium",874
+"PTEN","hsa-miR-12124",429,1,"tiered",0.094060133504414,"Medium",875
+"PTEN","hsa-miR-6501-3p",428,1,"tiered",0.111981168983658,"Medium",876
+"PTEN","hsa-miR-548t-5p",427,2,"tiered",0.281688967556,"Medium",877
+"PTEN","hsa-miR-421",426,1,"tiered",0.395280151500829,"Medium",878
+"PTEN","ebv-miR-BART12",424,1,"tiered",NA,NA,879
+"PTEN","hsa-miR-1292-5p",421,1,"tiered",0.119603532579425,"Medium",880
+"PTEN","hsa-miR-584-3p",419,2,"tiered",0.253584189863935,"High",881
+"PTEN","hsa-miR-5093",419,2,"tiered",0.193158851603246,"Medium",882
+"PTEN","hsa-miR-146b-3p",418,1,"tiered",0.0861094171180903,"Medium",883
+"PTEN","kshv-miR-K12-10b",415,1,"tiered",NA,NA,884
+"PTEN","hsa-miR-5190",414,1,"tiered",0.21650106936195,"Medium",885
+"PTEN","hsa-miR-548u",413,1,"tiered",0.162008419872823,"Medium",886
+"PTEN","hsa-miR-6828-5p",412,1,"tiered",0.0735722367701082,"Low",887
+"PTEN","hsa-miR-3668",412,1,"tiered",0.166170976193672,"Medium",888
+"PTEN","ebv-miR-BART4-3p",409,1,"tiered",NA,NA,889
+"PTEN","hsa-miR-646",407,1,"tiered",0.107417450653025,"Low",890
+"PTEN","hsa-miR-6514-3p",406,1,"tiered",0.082857976949353,"Medium",891
+"PTEN","hsa-miR-378e",406,1,"tiered",0.240861116661255,"High",892
+"PTEN","hsa-miR-6894-3p",404,1,"tiered",0.0425378262012298,"Low",893
+"PTEN","hsa-miR-936",403,1,"tiered",0.343648249078348,"Medium",894
+"PTEN","hsa-miR-208a-3p",401,1,"tiered",0.182295517564349,"Medium",895
+"PTEN","hsa-miR-208b-3p",400,1,"tiered",0.187579124795922,"Medium",896
+"PTEN","hsa-miR-6762-3p",397,1,"tiered",0.0351848557672294,"Low",897
+"PTEN","hsa-miR-136-5p",396,1,"tiered",0.578684416785239,"High",898
+"PTEN","hsa-miR-148b-5p",395,1,"tiered",0.414825945706084,"High",899
+"PTEN","hsa-miR-595",393,1,"tiered",0.343023713613349,"High",900
+"PTEN","hsa-miR-32-3p",392,2,"tiered",0.153806866103014,"Medium",901
+"PTEN","hsa-miR-6874-3p",392,1,"tiered",0.151236371472555,"Medium",902
+"PTEN","hsa-miR-1252-3p",391,2,"tiered",0.0537636722984319,"Medium",903
+"PTEN","hsa-miR-7161-3p",391,1,"tiered",0.0770050833667351,"Medium",904
+"PTEN","hsa-miR-4646-3p",390,1,"tiered",0.101736857497095,"Medium",905
+"PTEN","hsa-miR-506-5p",389,1,"tiered",0.156887915394091,"Medium",906
+"PTEN","hsa-miR-5681b",387,1,"tiered",0.156344704327327,"High",907
+"PTEN","hsa-miR-548ay-3p",386,1,"tiered",0.0750496372545227,"Medium",908
+"PTEN","hsa-miR-3144-3p",386,1,"tiered",0.243985491650173,"High",909
+"PTEN","hsa-miR-8054",383,2,"tiered",0.158655445685076,"Medium",910
+"PTEN","hsa-miR-3655",380,1,"tiered",0.292644235849901,"Very High",911
+"PTEN","hsa-miR-4263",379,1,"tiered",0.134493551993681,"Medium",912
+"PTEN","hsa-miR-518d-5p",378,1,"tiered",0.318462395029685,"High",913
+"PTEN","hsa-miR-5003-3p",377,2,"tiered",0.156012097335927,"Medium",914
+"PTEN","hsa-miR-518e-5p",377,1,"tiered",0.109084945602405,"Medium",915
+"PTEN","ebv-miR-BART14-3p",377,1,"tiered",NA,NA,916
+"PTEN","hsa-miR-1193",376,2,"tiered",0.544971864894519,"Very High",917
+"PTEN","hsa-miR-518f-5p",376,1,"tiered",0.139817790092028,"Medium",918
+"PTEN","hsa-miR-519a-5p",375,1,"tiered",0.109084945602405,"Medium",919
+"PTEN","hsa-miR-519b-5p",374,1,"tiered",0.140000709752176,"Medium",920
+"PTEN","hsa-miR-519c-5p",373,1,"tiered",0.140000709752176,"Medium",921
+"PTEN","hsa-miR-520c-5p",372,1,"tiered",0.299682841734696,"High",922
+"PTEN","ebv-miR-BART18-5p",372,1,"tiered",NA,NA,923
+"PTEN","hsa-miR-522-5p",371,1,"tiered",0.109084945602405,"Medium",924
+"PTEN","hsa-miR-523-5p",370,1,"tiered",0.109084945602405,"Medium",925
+"PTEN","hsa-miR-548at-3p",369,1,"tiered",0.1877743915295,"Medium",926
+"PTEN","hsa-miR-526a",369,1,"tiered",NA,NA,927
+"PTEN","hsa-miR-371a-5p",366,3,"tiered",0.524121013923875,"High",928
+"PTEN","hsa-miR-606",366,1,"tiered",0.308829157274109,"High",929
+"PTEN","hsa-miR-1273g-3p",364,1,"tiered",NA,NA,930
+"PTEN","hcmv-miR-US25-2-3p",364,1,"tiered",NA,NA,931
+"PTEN","hsa-miR-1288-3p",363,1,"tiered",0.108472862113055,"Medium",932
+"PTEN","ebv-miR-BART1-3p",363,1,"tiered",NA,NA,933
+"PTEN","hsa-miR-383-5p.2",362,1,"tiered",NA,NA,934
+"PTEN","hsa-miR-4762-3p",361,1,"tiered",0.228926819685463,"Medium",935
+"PTEN","hsa-miR-6892-5p",359,1,"tiered",0.0516238311641035,"Medium",936
+"PTEN","hsa-miR-1270",357,1,"tiered",0.555247856354149,"Very High",937
+"PTEN","hsa-miR-2114-5p",356,1,"tiered",0.0831092626127958,"Medium",938
+"PTEN","hsa-miR-4291",355,1,"tiered",0.211432687010079,"High",939
+"PTEN","hsa-miR-302c-3p",355,1,"tiered",0.438075269146291,"Medium",940
+"PTEN","hsa-miR-4473",354,1,"tiered",0.111975025894877,"Medium",941
+"PTEN","hsa-miR-125b-2-3p",353,2,"tiered",0.470773318365162,"Very High",942
+"PTEN","hsa-miR-500b-5p",352,1,"tiered",0.0991777737196908,"Medium",943
+"PTEN","hsa-miR-620",351,1,"tiered",0.546289970115424,"Very High",944
+"PTEN","hsa-miR-217-5p",349,1,"tiered",0.678743967597685,"High",945
+"PTEN","hsa-miR-136-3p",349,1,"tiered",0.0630327118969052,"Medium",946
+"PTEN","hsa-miR-5011-3p",348,1,"tiered",0.132050058632287,"Medium",947
+"PTEN","hsa-miR-4486",345,1,"tiered",0.0273418183850621,"Low",948
+"PTEN","hsa-miR-126-5p",345,1,"tiered",0.149447396601901,"Medium",949
+"PTEN","hsa-miR-7155-5p",343,1,"tiered",0.0196952632259347,"Low",950
+"PTEN","hsa-miR-3180-5p",342,1,"tiered",0.310018143041645,"High",951
+"PTEN","hsa-miR-4650-5p",341,1,"tiered",0.0792205885963718,"Medium",952
+"PTEN","hsa-miR-4314",339,1,"tiered",0.0742325431699045,"Low",953
+"PTEN","hbv-miR-B3RC-5p",339,1,"tiered",NA,NA,954
+"PTEN","kshv-miR-K12-11-3p",337,1,"tiered",NA,NA,955
+"PTEN","hsa-miR-561-3p",337,1,"tiered",0.650166292584665,"Very High",956
+"PTEN","hsa-miR-205-3p",336,2,"tiered",0.549016703380898,"Very High",957
+"PTEN","hsa-miR-6787-3p",336,1,"tiered",0.0747610465253441,"Medium",958
+"PTEN","hsa-miR-7112-3p",335,1,"tiered",0.111372894153949,"Medium",959
+"PTEN","hsa-miR-4514",333,1,"tiered",0.234931254758505,"Medium",960
+"PTEN","hsa-miR-6758-3p",332,2,"tiered",0.176640691825399,"High",961
+"PTEN","hsa-miR-4692",332,1,"tiered",0.21188889045219,"Medium",962
+"PTEN","hsa-miR-497-3p",331,1,"tiered",0.111762525286384,"Medium",963
+"PTEN","hsa-miR-493-5p",328,2,"tiered",0.332602442716015,"Medium",964
+"PTEN","hsa-miR-12119",327,1,"tiered",0.0322785466933058,"Low",965
+"PTEN","hsa-miR-382-3p",322,1,"tiered",0.0996840141863122,"Medium",966
+"PTEN","hsa-miR-4539",319,1,"tiered",0.150831366821574,"Medium",967
+"PTEN","hsa-miR-181b-2-3p",318,1,"tiered",0.0460343956773525,"Medium",968
+"PTEN","hsa-miR-181b-3p",317,1,"tiered",0.0895733583199402,"Medium",969
+"PTEN","hsa-miR-378h",315,1,"tiered",0.19466138567312,"High",970
+"PTEN","hsa-miR-2682-5p",315,1,"tiered",0.174999472440004,"Medium",971
+"PTEN","hsa-miR-3125",314,1,"tiered",0.179508271320016,"Medium",972
+"PTEN","hsa-miR-3154",313,1,"tiered",0.180701576901734,"Medium",973
+"PTEN","hsa-miR-34b-5p",312,1,"tiered",0.277845967532937,"Medium",974
+"PTEN","hsa-miR-338-5p",311,2,"tiered",0.338622638913105,"Medium",975
+"PTEN","hsa-miR-3689a-5p",311,1,"tiered",0.103182453405171,"Medium",976
+"PTEN","hsa-miR-3689b-5p",310,1,"tiered",0.103182453405171,"Medium",977
+"PTEN","hsa-miR-3689e",309,1,"tiered",0.103182453405171,"Medium",978
+"PTEN","hsa-miR-3689f",308,1,"tiered",0.0996316852626733,"Medium",979
+"PTEN","hsa-miR-3916",307,1,"tiered",0.214025380112474,"Medium",980
+"PTEN","hsa-miR-98-3p",306,2,"tiered",0.172911726104674,"Medium",981
+"PTEN","hsa-miR-432-5p",306,1,"tiered",0.0954475850651324,"Low",982
+"PTEN","hsa-miR-4420",305,1,"tiered",0.105074018666944,"Medium",983
+"PTEN","hsa-miR-449c-5p",304,1,"tiered",0.377885418424106,"Medium",984
+"PTEN","hsa-miR-4709-5p",303,1,"tiered",0.166393866762963,"Medium",985
+"PTEN","hsa-miR-6808-5p",300,1,"tiered",0.0995707951172742,"Low",986
+"PTEN","hsa-miR-6859-5p",299,1,"tiered",0.110648564146839,"Medium",987
+"PTEN","hsa-miR-6893-5p",298,1,"tiered",0.166311334979483,"Medium",988
+"PTEN","hsa-miR-12132",298,1,"tiered",NA,NA,989
+"PTEN","hsa-miR-940",297,1,"tiered",0.403884479541987,"Medium",990
+"PTEN","hsa-miR-222-3p",296,1,"tiered",0.367871314884931,"Medium",991
+"PTEN","hsa-miR-1236-5p",296,1,"tiered",0.0882217298410283,"Medium",992
+"PTEN","hsa-miR-3678-3p",295,1,"tiered",0.108617888864956,"Medium",993
+"PTEN","ebv-miR-BART9-5p",294,1,"tiered",NA,NA,994
+"PTEN","hsa-miR-541-5p",293,2,"tiered",0.159361762914664,"Medium",995
+"PTEN","hsa-miR-4432",293,1,"tiered",0.0944617579571307,"Medium",996
+"PTEN","hsa-miR-4635",292,1,"tiered",0.100851556993395,"Medium",997
+"PTEN","hsa-miR-384",292,1,"tiered",0.131123730489961,"Medium",998
+"PTEN","hsa-let-7b-3p",291,2,"tiered",0.202773719472612,"Medium",999
+"PTEN","hsa-miR-532-5p",291,1,"tiered",0.574225623382671,"Very High",1000
+"PTEN","hsa-miR-539-5p",290,1,"tiered",0.391259995526644,"Medium",1001
+"PTEN","hsa-miR-217-3p",290,1,"tiered",0.0226287611141166,"Low",1002
+"PTEN","hsa-miR-5579-5p",289,1,"tiered",0.167685772641399,"Medium",1003
+"PTEN","hsa-miR-5683",288,1,"tiered",0.226638535208345,"Medium",1004
+"PTEN","hsa-miR-6715b-3p",287,2,"tiered",0.0215008041351868,"Low",1005
+"PTEN","hsa-miR-4327",287,1,"tiered",0.306098613556575,"Very High",1006
+"PTEN","hsa-miR-422a",286,1,"tiered",0.220621392550123,"Medium",1007
+"PTEN","hsa-miR-6748-3p",285,1,"tiered",0.0621349441407241,"Medium",1008
+"PTEN","hsa-miR-6864-5p",284,1,"tiered",0.121996591505822,"Medium",1009
+"PTEN","hsv1-miR-H6-3p",283,1,"tiered",NA,NA,1010
+"PTEN","hsa-miR-4297",281,1,"tiered",0.212717031877402,"High",1011
+"PTEN","hsa-miR-490-3p",280,1,"tiered",0.206272931266481,"Medium",1012
+"PTEN","hsa-miR-5581-5p",278,1,"tiered",0.0772763284257692,"Medium",1013
+"PTEN","hsa-miR-378c",278,1,"tiered",0.137170463424993,"Medium",1014
+"PTEN","sfv-miR-S4-3p",277,1,"tiered",NA,NA,1015
+"PTEN","hsa-miR-134-3p",277,1,"tiered",0.00559728555956718,"Low",1016
+"PTEN","hsa-miR-6513-5p",276,1,"tiered",0.193676885136567,"High",1017
+"PTEN","hsa-miR-8080",275,1,"tiered",0.152228750813459,"Medium",1018
+"PTEN","hsa-miR-3651",273,1,"tiered",0.107901104438739,"Medium",1019
+"PTEN","hsa-miR-4477b",271,1,"tiered",0.0937832426375825,"Medium",1020
+"PTEN","hsa-miR-4496",270,1,"tiered",0.229863634837557,"Medium",1021
+"PTEN","hsa-miR-548l",269,1,"tiered",0.427809007019937,"Medium",1022
+"PTEN","kshv-miR-K12-1-3p",266,1,"tiered",NA,NA,1023
+"PTEN","hsa-miR-582-5p",266,1,"tiered",0.564273003661844,"High",1024
+"PTEN","hsa-miR-5583-3p",265,2,"tiered",0.148523141192129,"Medium",1025
+"PTEN","hsa-miR-6826-3p",265,1,"tiered",0.0557701957124277,"Low",1026
+"PTEN","kshv-miR-K12-4-5p",264,1,"tiered",NA,NA,1027
+"PTEN","hsa-miR-378d",263,1,"tiered",0.169622233642759,"Medium",1028
+"PTEN","hsa-miR-1255a",263,1,"tiered",0.433837902137261,"Very High",1029
+"PTEN","hsa-miR-549a-3p",262,1,"tiered",0.248061653578781,"Medium",1030
+"PTEN","hsa-miR-1255b-5p",262,1,"tiered",0.386142153963207,"High",1031
+"PTEN","hsa-miR-143-5p",261,1,"tiered",0.276789495550321,"High",1032
+"PTEN","hsa-miR-3136-3p",260,1,"tiered",0.291497128677329,"High",1033
+"PTEN","ebv-miR-BART13-3p",260,1,"tiered",NA,NA,1034
+"PTEN","hsa-miR-371a-3p",259,1,"tiered",0.369187558618252,"Very High",1035
+"PTEN","hsa-miR-3185",259,1,"tiered",0.175749136595338,"Medium",1036
+"PTEN","hsa-miR-4666a-3p",258,2,"tiered",0.239310243274685,"Medium",1037
+"PTEN","hsa-miR-4286",258,1,"tiered",0.378136858576123,"Very High",1038
+"PTEN","hsa-miR-7155-3p",256,1,"tiered",0.0999924328318926,"Medium",1039
+"PTEN","hsa-miR-8087",250,1,"tiered",0.0652698337590357,"Medium",1040
+"PTEN","hsa-miR-3611",250,1,"tiered",0.146350684074371,"Medium",1041
+"PTEN","hsa-miR-3169",249,1,"tiered",0.145298105913551,"Medium",1042
+"PTEN","hsa-miR-520e-3p",248,1,"tiered",0.560885085571774,"High",1043
+"PTEN","hsa-miR-4704-5p",247,1,"tiered",0.139563819528187,"Medium",1044
+"PTEN","hsa-miR-554",246,1,"tiered",0.442036190884259,"Very High",1045
+"PTEN","hsa-miR-7158-5p",244,1,"tiered",0.0305358846270633,"Low",1046
+"PTEN","hsa-miR-758-5p",243,1,"tiered",0.0798569364560994,"Medium",1047
+"PTEN","hsa-miR-378a-3p",242,1,"tiered",0.128469146536377,"Medium",1048
+"PTEN","hsa-miR-26a-1-3p",242,1,"tiered",0.356293815855661,"High",1049
+"PTEN","hsa-miR-6504-3p",241,2,"tiered",0.0810492195169706,"Low",1050
+"PTEN","hsa-miR-26a-2-3p",241,1,"tiered",0.318835969805937,"High",1051
+"PTEN","hsa-miR-6826-5p",239,1,"tiered",0.13300288599747,"Medium",1052
+"PTEN","hsa-miR-548n",238,2,"tiered",0.485425998337639,"Medium",1053
+"PTEN","hsa-miR-1324",238,1,"tiered",0.320561333340001,"Medium",1054
+"PTEN","hsa-miR-12120",238,1,"tiered",0.0571422386872184,"Low",1055
+"PTEN","hsa-miR-4792",236,1,"tiered",NA,NA,1056
+"PTEN","hsa-miR-369-3p",235,2,"tiered",0.522901923999412,"High",1057
+"PTEN","hsa-miR-6831-3p",235,1,"tiered",0.0330448725615922,"Medium",1058
+"PTEN","hsa-miR-380-3p",234,2,"tiered",0.404003221079526,"High",1059
+"PTEN","hsa-miR-135b-3p",234,1,"tiered",0.180990300766783,"High",1060
+"PTEN","hsa-let-7a-3p",234,1,"tiered",0.221170072767845,"Medium",1061
+"PTEN","hcmv-miR-US4-3p",233,1,"tiered",NA,NA,1062
+"PTEN","hsa-miR-135a-2-3p",232,1,"tiered",0.0137652435817124,"Low",1063
+"PTEN","hsa-let-7f-1-3p",232,1,"tiered",0.230386260603574,"Medium",1064
+"PTEN","hsa-miR-2054",230,2,"tiered",0.505986787508699,"Very High",1065
+"PTEN","hsa-miR-1273h-3p",230,1,"tiered",0.00613798477826411,"Low",1066
+"PTEN","hsa-miR-3152-5p",229,1,"tiered",0.124087203776287,"Medium",1067
+"PTEN","hsa-miR-4668-5p",228,1,"tiered",0.2443965362325,"Medium",1068
+"PTEN","hsa-miR-3675-3p",227,2,"tiered",0.135076373229283,"Medium",1069
+"PTEN","hsa-miR-770-5p",226,1,"tiered",0.225693019245478,"Medium",1070
+"PTEN","hsa-miR-141-5p",224,1,"tiered",0.276032932458272,"High",1071
+"PTEN","hsa-miR-1827",223,1,"tiered",0.383544622515564,"Medium",1072
+"PTEN","hsa-miR-138-2-3p",221,2,"tiered",0.132421136648718,"Medium",1073
+"PTEN","hcmv-miR-UL70-3p",221,1,"tiered",NA,NA,1074
+"PTEN","hsa-miR-545-5p",220,2,"tiered",0.188748416485363,"Medium",1075
+"PTEN","hsa-miR-5096",219,1,"tiered",NA,NA,1076
+"PTEN","hsa-miR-3942-3p",217,2,"tiered",0.122969048446635,"Medium",1077
+"PTEN","hsa-miR-520b-3p",217,1,"tiered",0.384066527067191,"Medium",1078
+"PTEN","hsa-miR-3074-3p",216,2,"tiered",0.187046783363864,"Medium",1079
+"PTEN","hsa-miR-378b",216,1,"tiered",0.18506794841965,"Medium",1080
+"PTEN","hsa-miR-3664-3p",213,1,"tiered",0.0749654131915071,"Low",1081
+"PTEN","hsa-miR-3925-5p",212,1,"tiered",0.226039650202747,"Medium",1082
+"PTEN","sfv-miR-S7-3p",211,1,"tiered",NA,NA,1083
+"PTEN","hsa-miR-371b-3p",210,1,"tiered",0.118800563727118,"Medium",1084
+"PTEN","hsa-miR-6739-3p",208,1,"tiered",0.0650077261969121,"Medium",1085
+"PTEN","hsa-miR-567",208,1,"tiered",0.304992551033553,"High",1086
+"PTEN","hsv1-miR-H1-5p",206,1,"tiered",NA,NA,1087
+"PTEN","hsa-miR-197-3p",206,1,"tiered",0.118633124081371,"Medium",1088
+"PTEN","hsa-miR-3156-5p",205,1,"tiered",0.125248505239666,"Medium",1089
+"PTEN","hsa-miR-320e",204,1,"tiered",0.30663888974325,"High",1090
+"PTEN","hsa-miR-8084",203,2,"tiered",0.131038069995897,"Medium",1091
+"PTEN","hsa-miR-378f",201,1,"tiered",0.146392227068434,"Medium",1092
+"PTEN","hsa-miR-370-5p",199,1,"tiered",0.00571990822142299,"Low",1093
+"PTEN","hsa-miR-4777-5p",198,1,"tiered",0.143218471960115,"Medium",1094
+"PTEN","jcv-miR-J1-5p",196,1,"tiered",NA,NA,1095
+"PTEN","hsa-miR-3609",195,2,"tiered",0.42006716153859,"High",1096
+"PTEN","hsa-miR-6892-3p",194,1,"tiered",0.0366400833124179,"Low",1097
+"PTEN","hsa-miR-12131",192,1,"tiered",0.0543437155646814,"Medium",1098
+"PTEN","hsa-miR-4299",191,1,"tiered",0.0974290384465641,"Medium",1099
+"PTEN","hsa-miR-4804-3p",190,1,"tiered",0.0732387883191639,"Medium",1100
+"PTEN","hsa-miR-3190-3p",189,1,"tiered",0.10839267876805,"Medium",1101
+"PTEN","hsa-miR-2276-5p",188,1,"tiered",0.0538247399225106,"Low",1102
+"PTEN","hsa-miR-6796-3p",186,1,"tiered",0.14564360593942,"High",1103
+"PTEN","hsa-miR-137",185,1,"tiered",NA,NA,1104
+"PTEN","hsa-miR-330-3p",184,1,"tiered",0.372137237599701,"Medium",1105
+"PTEN","hsa-miR-3606-5p",183,1,"tiered",0.411052962411178,"Very High",1106
+"PTEN","hsa-miR-1343-3p",181,1,"tiered",0.0235302874644475,"Low",1107
+"PTEN","hsa-miR-199a-3p",180,1,"tiered",0.249251168473064,"Medium",1108
+"PTEN","hsa-miR-199b-3p",179,1,"tiered",0.139928060928584,"Medium",1109
+"PTEN","hsa-miR-3129-5p",178,1,"tiered",0.111039315837085,"Medium",1110
+"PTEN","hsa-miR-3713",176,1,"tiered",0.033953363407338,"Low",1111
+"PTEN","hsa-miR-1912-5p",176,1,"tiered",0.0420028196227455,"Medium",1112
+"PTEN","hsa-miR-3928-5p",175,1,"tiered",0.111161121520509,"Medium",1113
+"PTEN","hsa-miR-450a-1-3p",173,1,"tiered",0.102676442616217,"Medium",1114
+"PTEN","hsa-miR-6853-3p",172,2,"tiered",0.128547548345187,"Medium",1115
+"PTEN","hsa-miR-5585-3p",171,1,"tiered",0.236805473064251,"High",1116
+"PTEN","hsa-miR-6783-3p",170,1,"tiered",0.0262097168775695,"Low",1117
+"PTEN","hsa-miR-552-5p",169,2,"tiered",0.0585924293019677,"Medium",1118
+"PTEN","hsa-miR-6806-3p",169,1,"tiered",0.122724579562459,"Medium",1119
+"PTEN","hsa-miR-3155a",167,1,"tiered",0.261444370994839,"High",1120
+"PTEN","hsa-miR-3155b",166,1,"tiered",0.104543365575612,"Medium",1121
+"PTEN","hsv1-miR-H8-5p",165,1,"tiered",NA,NA,1122
+"PTEN","hsa-miR-3160-5p",165,1,"tiered",0.220842714107957,"Medium",1123
+"PTEN","hsa-miR-4794",162,1,"tiered",0.115323210913378,"Medium",1124
+"PTEN","hsa-miR-484",161,1,"tiered",0.399679657700004,"High",1125
+"PTEN","hsa-miR-6077",160,1,"tiered",0.135351086127759,"Medium",1126
+"PTEN","hsa-miR-664a-5p",159,1,"tiered",0.127565325823587,"Medium",1127
+"PTEN","hsa-miR-378j",159,1,"tiered",0.0826843185883185,"Medium",1128
+"PTEN","hsa-miR-1231",158,1,"tiered",0.144084197438387,"Medium",1129
+"PTEN","hsa-miR-3120-5p",157,1,"tiered",0.175496158161772,"Medium",1130
+"PTEN","hsa-miR-12117",156,2,"tiered",0.0887234657727791,"Medium",1131
+"PTEN","hsa-miR-3927-3p",156,1,"tiered",0.301802384076099,"High",1132
+"PTEN","hsa-miR-5691",155,1,"tiered",0.102978986529523,"Medium",1133
+"PTEN","hsa-miR-665",154,1,"tiered",0.106322708692184,"Low",1134
+"PTEN","hsa-miR-6805-3p",153,1,"tiered",0.037458249687125,"Low",1135
+"PTEN","hsa-miR-1205",153,1,"tiered",0.129912781181902,"Medium",1136
+"PTEN","hsa-miR-6831-5p",152,1,"tiered",0.171786316423804,"Medium",1137
+"PTEN","hsa-miR-221-3p",152,1,"tiered",0.37506528644544,"Medium",1138
+"PTEN","hsa-miR-4256",150,1,"tiered",0.0987334114572681,"Medium",1139
+"PTEN","hsa-miR-2053",147,2,"tiered",0.313094840087312,"High",1140
+"PTEN","hsa-miR-607",147,1,"tiered",0.395233061828768,"Medium",1141
+"PTEN","hsa-miR-520e-5p",147,1,"tiered",0.0266930938488844,"Low",1142
+"PTEN","hsa-miR-325-3p",145,1,"tiered",NA,NA,1143
+"PTEN","hsa-miR-450b-3p",143,1,"tiered",0.36175867360167,"High",1144
+"PTEN","hsa-miR-4762-5p",142,1,"tiered",0.102372133592701,"Medium",1145
+"PTEN","hsa-miR-6834-3p",141,1,"tiered",0.0274230475716412,"Medium",1146
+"PTEN","hsa-miR-769-3p",140,1,"tiered",0.326885751783811,"Medium",1147
+"PTEN","hsa-miR-10394-5p",139,1,"tiered",0.0141927780670309,"Low",1148
+"PTEN","hsa-miR-196a-3p",138,1,"tiered",0.29126892168657,"High",1149
+"PTEN","hsa-miR-3161",136,1,"tiered",0.279202813060884,"High",1150
+"PTEN","hsa-miR-3919",135,1,"tiered",0.182005614678686,"Medium",1151
+"PTEN","hsa-miR-6869-5p",134,1,"tiered",0.0453894833912427,"Medium",1152
+"PTEN","hsa-miR-4474-3p",131,1,"tiered",0.166775312052006,"Medium",1153
+"PTEN","hsa-miR-5701",130,1,"tiered",0.0882014305709997,"Medium",1154
+"PTEN","hsa-miR-6126",129,1,"tiered",0.0748904046602923,"Medium",1155
+"PTEN","hsa-miR-636",128,1,"tiered",0.0727977945442515,"Low",1156
+"PTEN","hsa-miR-6895-3p",127,1,"tiered",0.11319235902094,"Medium",1157
+"PTEN","hsa-miR-8070",126,1,"tiered",0.0680325684363247,"Medium",1158
+"PTEN","hcmv-miR-UL22A-5p",126,1,"tiered",NA,NA,1159
+"PTEN","hsa-miR-4311",124,1,"tiered",0.20860165548131,"Medium",1160
+"PTEN","hsa-miR-4803",123,1,"tiered",0.150534186804858,"Medium",1161
+"PTEN","hsa-miR-6529-3p",120,1,"tiered",0.0562654169822421,"High",1162
+"PTEN","hsa-miR-5680",119,1,"tiered",0.210368551530636,"Medium",1163
+"PTEN","hsa-miR-589-3p",118,1,"tiered",0.372652448502397,"High",1164
+"PTEN","hsa-miR-627-3p",117,1,"tiered",0.151142052596278,"Medium",1165
+"PTEN","hsa-miR-223-5p",114,1,"tiered",0.0808280961495736,"Medium",1166
+"PTEN","hsa-miR-4320",110,1,"tiered",0.0725508052476993,"Medium",1167
+"PTEN","hsa-miR-183-5p",109,2,"tiered",0.695468705508556,"Very High",1168
+"PTEN","hsa-miR-519e-3p",109,1,"tiered",0.347488829355768,"High",1169
+"PTEN","hsa-miR-505-3p",107,1,"tiered",0.406777820087934,"High",1170
+"PTEN","hsa-miR-887-5p",106,1,"tiered",0.0942441178541693,"Medium",1171
+"PTEN","hsa-miR-4433b-5p",106,1,"tiered",0.0362205253221282,"Low",1172
+"PTEN","hsa-miR-4650-3p",105,1,"tiered",0.348741112232807,"High",1173
+"PTEN","hsa-miR-6779-3p",104,1,"tiered",0.0429330638699551,"Medium",1174
+"PTEN","hsa-miR-4683",104,1,"tiered",0.0949682461928982,"Medium",1175
+"PTEN","hsa-miR-6890-3p",103,1,"tiered",0.0452844929970653,"Low",1176
+"PTEN","hsa-miR-1322",102,1,"tiered",0.360805012892415,"High",1177
+"PTEN","hsa-miR-2113",101,1,"tiered",0.302452677086833,"High",1178
+"PTEN","hsa-miR-513b-5p",99,1,"tiered",0.228317399631472,"Medium",1179
+"PTEN","sfv-miR-S6-3p",98,1,"tiered",NA,NA,1180
+"PTEN","hsa-miR-5580-3p",96,1,"tiered",0.120451692376758,"Medium",1181
+"PTEN","hsa-miR-448",95,1,"tiered",0.47979874149803,"High",1182
+"PTEN","hsa-miR-5196-3p",94,1,"tiered",0.0992589489805906,"Medium",1183
+"PTEN","hsa-miR-4484",93,1,"tiered",0.145469987790529,"Medium",1184
+"PTEN","hsa-miR-150-3p",93,1,"tiered",0.147408181509607,"Medium",1185
+"PTEN","hsa-miR-4715-3p",92,1,"tiered",0.114993039943605,"Medium",1186
+"PTEN","hsa-miR-4760-5p",91,1,"tiered",0.157703349221088,"Medium",1187
+"PTEN","hsa-miR-5089-5p",90,1,"tiered",0.139894414212585,"Medium",1188
+"PTEN","hsa-miR-548av-5p",89,1,"tiered",0.153876153431,"Medium",1189
+"PTEN","hsa-miR-548k",88,1,"tiered",0.295637180832584,"Medium",1190
+"PTEN","hsa-miR-1246",88,1,"tiered",0.239141406889008,"Medium",1191
+"PTEN","hsa-miR-577",86,1,"tiered",0.583379099146355,"High",1192
+"PTEN","hsa-miR-6773-3p",85,1,"tiered",0.0358124818815668,"Low",1193
+"PTEN","hsa-miR-8061",83,1,"tiered",0.0776149767212835,"Medium",1194
+"PTEN","hsa-miR-147a",81,1,"tiered",0.357397380645836,"Medium",1195
+"PTEN","hsa-miR-5007-3p",80,1,"tiered",0.0926657561058425,"Medium",1196
+"PTEN","hsa-miR-101-3p.2",79,1,"tiered",NA,NA,1197
+"PTEN","hsa-miR-106a-3p",78,1,"tiered",0.173072541849351,"Medium",1198
+"PTEN","hsa-miR-203a-3p.2",77,1,"tiered",NA,NA,1199
+"PTEN","hsa-miR-29b-1-5p",76,1,"tiered",0.104005332301171,"Medium",1200
+"PTEN","hsa-miR-29b-2-5p",75,1,"tiered",0.210638585489293,"Medium",1201
+"PTEN","hsa-miR-3074-5p",74,1,"tiered",0.110741929996531,"Medium",1202
+"PTEN","hsa-miR-3124-3p",73,1,"tiered",0.0862076429902915,"Medium",1203
+"PTEN","hsa-miR-3192-3p",72,1,"tiered",0.0441459536413175,"Medium",1204
+"PTEN","hsa-miR-6764-3p",71,1,"tiered",0.0383783532099704,"Low",1205
+"PTEN","hsa-miR-34b-3p",71,1,"tiered",0.0622071092783435,"Low",1206
+"PTEN","hsa-miR-653-3p",70,1,"tiered",0.0432906438429758,"Low",1207
+"PTEN","hsa-miR-3614-5p",70,1,"tiered",0.142519149332224,"Medium",1208
+"PTEN","hsa-miR-605-5p",69,2,"tiered",0.439312480505123,"High",1209
+"PTEN","hsa-miR-1245b-3p",69,1,"tiered",0.124002824450906,"Medium",1210
+"PTEN","hsa-miR-1251-3p",68,1,"tiered",0.0360690919450908,"Low",1211
+"PTEN","hsa-miR-3168",67,1,"tiered",0.0894960645048201,"Medium",1212
+"PTEN","hsa-miR-3692-3p",66,1,"tiered",0.162546619496689,"Medium",1213
+"PTEN","hsa-miR-374c-5p",65,1,"tiered",0.163504543309362,"Medium",1214
+"PTEN","hsv1-miR-H5-3p",64,1,"tiered",NA,NA,1215
+"PTEN","hsa-miR-3920",64,1,"tiered",0.215813829390244,"High",1216
+"PTEN","hsa-miR-518c-5p",63,1,"tiered",0.141080075442972,"Medium",1217
+"PTEN","hsa-miR-452-5p",63,1,"tiered",0.331051165061742,"Medium",1218
+"PTEN","hsa-miR-4676-3p",62,1,"tiered",0.125681156395391,"Medium",1219
+"PTEN","ebv-miR-BHRF1-3",62,1,"tiered",NA,NA,1220
+"PTEN","hsa-miR-4799-5p",61,1,"tiered",0.121852614999692,"Medium",1221
+"PTEN","hsa-miR-654-3p",60,1,"tiered",0.171559688355621,"Medium",1222
+"PTEN","hsa-miR-655-3p",59,1,"tiered",0.338319946984915,"Medium",1223
+"PTEN","hsa-miR-892c-3p",58,1,"tiered",0.154595901176371,"Medium",1224
+"PTEN","hsa-miR-1266-5p",57,1,"tiered",0.0923671577910086,"Low",1225
+"PTEN","hsa-miR-3910",56,1,"tiered",0.151178801019861,"Medium",1226
+"PTEN","hsa-miR-409-3p",55,1,"tiered",0.524722622601122,"High",1227
+"PTEN","hsa-miR-4477a",54,1,"tiered",0.190716463306647,"Medium",1228
+"PTEN","sfv-miR-S5-3p",53,1,"tiered",NA,NA,1229
+"PTEN","hsa-miR-4518",53,1,"tiered",0.0953367104648893,"Low",1230
+"PTEN","hsa-miR-873-5p.1",52,1,"tiered",NA,NA,1231
+"PTEN","hsa-miR-4422",51,1,"tiered",0.169283003427612,"Medium",1232
+"PTEN","hsa-miR-196a-1-3p",51,1,"tiered",0.0294787830836938,"Low",1233
+"PTEN","hsa-miR-4652-3p",50,1,"tiered",0.138881418706525,"Medium",1234
+"PTEN","hsa-miR-4743-3p",49,1,"tiered",0.185759112783559,"Medium",1235
+"PTEN","hsa-miR-495-5p",48,1,"tiered",0.0780418147297247,"Medium",1236
+"PTEN","hsa-miR-1537-3p",47,1,"tiered",0.115886966994246,"Medium",1237
+"PTEN","hsa-miR-1271-5p",47,1,"tiered",0.160017551683293,"Medium",1238
+"PTEN","hsa-miR-3908",46,1,"tiered",0.23362684278567,"Medium",1239
+"PTEN","hsa-miR-4704-3p",45,1,"tiered",0.184153348831271,"Medium",1240
+"PTEN","hsv1-miR-H7-5p",44,1,"tiered",NA,NA,1241
+"PTEN","hsa-miR-4705",44,1,"tiered",0.0846682410544071,"Medium",1242
+"PTEN","hsa-miR-7-5p",42,1,"tiered",0.606389207792785,"High",1243
+"PTEN","hsa-miR-96-5p",41,1,"tiered",0.395443424810698,"Medium",1244
+"PTEN","hsa-miR-21-5p",40,1,"tiered",0.295350918807059,"Medium",1245
+"PTEN","hsv2-miR-H7-5p",39,1,"tiered",NA,NA,1246
+"PTEN","hsa-miR-29a-5p",39,1,"tiered",0.31578699489227,"High",1247
+"PTEN","hsa-miR-302a-5p",38,1,"tiered",0.129783072744451,"Medium",1248
+"PTEN","hsa-miR-133a-3p",38,1,"tiered",0.238770259732232,"Medium",1249
+"PTEN","hsa-miR-335-5p",37,1,"tiered",0.404759667702757,"Medium",1250
+"PTEN","hsa-miR-34a-3p",36,1,"tiered",0.0699957503873988,"Medium",1251
+"PTEN","hsa-miR-133b",36,1,"tiered",0.237269439896876,"Medium",1252
+"PTEN","hsa-miR-3591-5p",35,1,"tiered",NA,NA,1253
+"PTEN","hsa-miR-203a-3p",35,1,"tiered",0.455583344902914,"Medium",1254
+"PTEN","hsa-miR-5009-3p",34,1,"tiered",0.0937428536081514,"Medium",1255
+"PTEN","hsa-miR-590-5p",33,1,"tiered",0.165103270094656,"Medium",1256
+"PTEN","hsa-miR-7108-5p",32,1,"tiered",0.0806534282474578,"Medium",1257
+"PTEN","hsa-miR-6824-3p",32,1,"tiered",0.0333289512022916,"Low",1258
+"PTEN","hsa-miR-759",31,1,"tiered",0.131429931568077,"Medium",1259
+"PTEN","hsa-miR-101-3p.1",30,1,"tiered",NA,NA,1260
+"PTEN","hsa-miR-4261",29,1,"tiered",0.150931928757851,"Medium",1261
+"PTEN","hsa-miR-1208",29,1,"tiered",0.0549665540192886,"Low",1262
+"PTEN","hsa-miR-1266-3p",28,1,"tiered",0.0489184292120329,"Low",1263
+"PTEN","hsa-miR-138-1-3p",27,1,"tiered",0.10022429272876,"Medium",1264
+"PTEN","hsa-miR-300",26,1,"tiered",0.182777891821009,"Medium",1265
+"PTEN","hsa-miR-489-3p",25,1,"tiered",0.247107041099902,"Medium",1266
+"PTEN","hsa-miR-3149",25,1,"tiered",0.23074542715974,"Medium",1267
+"PTEN","hsa-miR-345-5p",23,1,"tiered",0.15589312138446,"Medium",1268
+"PTEN","hsa-miR-122b-3p",23,1,"tiered",0.134237360857611,"Medium",1269
+"PTEN","hsa-miR-381-3p",22,1,"tiered",0.155930784745375,"Medium",1270
+"PTEN","hsa-miR-12125",22,1,"tiered",0.0135121113708651,"Low",1271
+"PTEN","hsa-miR-4288",21,1,"tiered",0.0192536463629054,"Low",1272
+"PTEN","hsa-miR-4524b-3p",20,1,"tiered",0.145009960465385,"Medium",1273
+"PTEN","hcmv-miR-US5-1",20,1,"tiered",NA,NA,1274
+"PTEN","hsa-miR-4724-3p",19,1,"tiered",0.0718705595406694,"Medium",1275
+"PTEN","hsa-miR-20b-3p",19,1,"tiered",0.146002575670018,"Medium",1276
+"PTEN","hsa-miR-4778-3p",18,1,"tiered",0.07081106277729,"Low",1277
+"PTEN","hsa-miR-6852-3p",17,1,"tiered",0.0377067218109766,"Low",1278
+"PTEN","hsa-miR-576-5p",17,1,"tiered",0.34124691135472,"Medium",1279
+"PTEN","hsa-miR-632",16,1,"tiered",0.0452358455058235,"Low",1280
+"PTEN","hsa-miR-6792-5p",14,1,"tiered",0.165435716813559,"Medium",1281
+"PTEN","hsa-miR-766-3p",13,1,"tiered",0.0850963623767159,"Low",1282
+"PTEN","hsa-miR-8057",12,1,"tiered",0.0328255837463342,"Low",1283
+"PTEN","hsa-miR-101-5p",11,1,"tiered",0.0918069749324556,"Medium",1284
+"PTEN","ebv-miR-BART15",11,1,"tiered",NA,NA,1285
+"PTEN","hsa-miR-3122",10,1,"tiered",0.19246195293551,"Medium",1286
+"PTEN","hsa-miR-3913-5p",9,1,"tiered",0.290958942749091,"High",1287
+"PTEN","hsa-miR-137-3p",8,1,"tiered",0.200633601787944,"Medium",1288
+"PTEN","hsa-miR-6072",7,1,"tiered",0.063020736631655,"Low",1289
+"PTEN","hsa-miR-659-3p",6,1,"tiered",0.123096890668169,"Medium",1290
+"PTEN","hsa-miR-6750-3p",5,1,"tiered",0.00584202297563452,"Low",1291
+"PTEN","hsa-miR-6891-3p",4,1,"tiered",0.0346192535149221,"Low",1292
+"PTEN","hsa-miR-3140-3p",4,1,"tiered",0.316310932023435,"Medium",1293
+"PTEN","hsa-miR-145-5p",3,1,"tiered",0.197972567692058,"Medium",1294
+"PTEN","hsa-miR-5195-3p",2,1,"tiered",0.0770074427195824,"Medium",1295
+"PTEN","hsa-miR-6884-3p",1,1,"tiered",0.00575721904792226,"Low",1296
