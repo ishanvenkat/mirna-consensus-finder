@@ -17,65 +17,164 @@ Gene → TargetScan + DIANA + miRDB + mirDIP → normalization → consensus sco
 | `docs/research/` | Algorithm profiles and score comparison matrix |
 | `docs/presentation/` | Slideshow content and bibliography |
 | `R/` | Modular R predictors and integration |
-| `scripts/` | Bulk data download helpers |
+| `scripts/` | Bulk data download and per-gene export CLIs |
 | `data/raw/` | Bulk prediction downloads (gitignored) |
-| `data/cache/` | Per-gene API query cache |
+| `data/cache/` | Per-gene exports, API caches, symbol maps (gitignored) |
 | `.cursor/skills/` | Agent skills for research, R modules, presentation |
 | `.cursor/rules/` | Persistent project constraints |
 
-## Quick Start
+## Prerequisites
 
-Download TargetScan 8.0 bulk data (one-time, ~650 MB total for human + mouse):
+Run all commands below from the **project root** (the directory that contains `R/` and `scripts/`).
+
+**R packages**
+
+| Package | Used for |
+|---------|----------|
+| `httr2` | DIANA and mirDIP live API queries |
+| `data.table` | Optional; faster reads of large bulk files |
+| `dplyr` | Optional; binding columns when integrating sources |
+
+```r
+install.packages(c("httr2", "data.table", "dplyr"))
+```
+
+Scripts create `data/raw/` and `data/cache/` automatically if they are missing.
+
+## Data not in Git
+
+`data/raw/` and `data/cache/` are listed in `.gitignore`. After cloning the repo you need to **download bulk files** (where a predictor uses them) and **run export scripts** to generate per-gene outputs. Nothing under `data/` is required to browse docs or run unit tests that use small fixtures.
+
+### Bulk downloads (one-time per machine)
+
+Re-run with `--force` to replace existing files.
+
+| Script | Writes to | Required for | Notes |
+|--------|-----------|--------------|-------|
+| `scripts/download_targetscan.R` | `data/raw/targetscan/` | TargetScan exports | Human (`vert_80`) + mouse (`mmu_80`); ~650 MB total |
+| `scripts/download_mirdb.R` | `data/raw/mirdb/` | miRDB exports | Single large gzipped prediction file |
+| `scripts/download_diana_bulk.R` | `data/raw/diana/` | DIANA bulk fallback | Optional if the DIANA API is reachable; default fetches `hsa` and `mmu` |
 
 ```bash
 Rscript scripts/download_targetscan.R
+Rscript scripts/download_mirdb.R
+Rscript scripts/download_diana_bulk.R
+
+# Optional: only human DIANA bulk
+Rscript scripts/download_diana_bulk.R hsa
+
+# Re-download after upstream updates
+Rscript scripts/download_targetscan.R --force
 ```
 
-Download miRDB v6.0 bulk predictions (one-time, large file):
+**mirDIP** has no bulk download script in this repo; exports call the public API and cache responses under `data/cache/mirdip/`.
+
+### Per-gene prediction exports
+
+Each export script queries one predictor for a **gene symbol** and species (`hsa` default, or `mmu`), then writes:
+
+- `data/cache/<GENE>_<species>_<source>.csv`
+- `data/cache/<GENE>_<species>_<source>.rds`
+
+Replace `PTEN` with any validated HUGO symbol. Pass `--help` (or run with no args) on any script for flags.
+
+**TargetScan** (requires TargetScan bulk download):
 
 ```bash
-Rscript scripts/download_mirdb.R
+Rscript scripts/export_score_targetscan.R PTEN hsa --mirna-prefix=species
 ```
 
-Optional R packages: `data.table` (faster reads), `dplyr` (multi-source column binding).
+Common flags: `--predictions=all|default`, `--score-name=cwcs|biochem_occupancy`, `--min-cwcs=<numeric>` (keep rows with CWCS ≤ value; more negative = stronger).
 
-Required for DIANA/mirDIP API access (bulk fallbacks work without it for TargetScan/miRDB):
+**DIANA-microT-CDS** (API by default; bulk fallback if `download_diana_bulk.R` was run):
 
-```r
-install.packages("httr2")
+```bash
+Rscript scripts/export_score_diana.R PTEN hsa
 ```
 
-```r
-source("R/main.R")
+Common flags: `--threshold=0.7`, `--prefer-api=true|false`, `--mirna-resource=mirbase|mirgenedb`.
 
-find_mirna_regulators("PTEN", sources = "targetscan")
-# TargetScan-only query with conservation annotation:
-# query_targets_targetscan("PTEN", predictions = "all", score_name = "cwcs")  # CWCS: more negative = stronger
-# query_targets_targetscan("PTEN", min_cwcs = -0.5)  # keep CWCS <= -0.5 (stronger repression)
-# Human mature miRNAs only (after family expansion from miR_Family_Info.txt):
-# query_targets_targetscan("PTEN", mirna_prefix = "species")
+**miRDB** (requires miRDB bulk download):
+
+```bash
+Rscript scripts/export_score_mirdb.R PTEN hsa
 ```
 
-Export per-source predictions (live query → cache):
+Common flag: `--min-score=60` (default mining cutoff in `R/config.R`).
+
+**mirDIP** (network + `httr2`):
+
+```bash
+Rscript scripts/export_score_mirdip.R PTEN hsa
+```
+
+Common flags: `--score-class=Very High|High|Medium|Low`, `--min-score=<numeric>`.
+
+**Run all four for one gene:**
 
 ```bash
 Rscript scripts/export_score_targetscan.R PTEN hsa --mirna-prefix=species
 Rscript scripts/export_score_diana.R PTEN hsa
 Rscript scripts/export_score_mirdb.R PTEN hsa
 Rscript scripts/export_score_mirdip.R PTEN hsa
-# → data/cache/<GENE>_<species>_<source>.csv and .rds
 ```
 
-Integrate via `find_mirna_regulators()` (live queries by default, or read cache with fallback):
+### Integrated consensus export
+
+Combines predictors with `integrate_scores()` (default method: **tiered** — not a raw average of incompatible scores). Writes:
+
+| File | Contents |
+|------|----------|
+| `data/cache/<GENE>_<species>_integrated.csv` / `.rds` | Ranked integrated table |
+| `data/cache/<GENE>_<species>_predictions_combined.csv` | Long-format rows from all sources (unless disabled) |
+
+**Live queries** (hits APIs / bulk as needed; does not require prior per-source exports):
 
 ```bash
 Rscript scripts/export_score_integrated.R PTEN hsa --method=tiered
-Rscript scripts/export_score_integrated.R PTEN hsa --use-cache=true --method=tiered
-# → data/cache/PTEN_hsa_integrated.csv|.rds
-# → data/cache/PTEN_hsa_predictions_combined.csv (default)
 ```
 
-In R, `find_mirna_regulators("PTEN", integrate = TRUE, use_cached_predictions = TRUE)` uses cached per-source files when present.
+**From cached per-source files** (run the four `export_score_*.R` scripts first; skips re-querying sources that already have cache files):
+
+```bash
+Rscript scripts/export_score_integrated.R PTEN hsa --use-cache=true --method=tiered
+```
+
+Other flags: `--sources=targetscan,diana,mirdb,mirdip` (comma-separated subset), `--write-combined=true|false`, `--method=tiered|rank_fusion|percentile`.
+
+### End-to-end example (PTEN, human)
+
+```bash
+# 1) One-time bulk data
+Rscript scripts/download_targetscan.R
+Rscript scripts/download_mirdb.R
+Rscript scripts/download_diana_bulk.R
+
+# 2) Per-source caches (optional but useful for inspection and offline integration)
+Rscript scripts/export_score_targetscan.R PTEN hsa --mirna-prefix=species
+Rscript scripts/export_score_diana.R PTEN hsa
+Rscript scripts/export_score_mirdb.R PTEN hsa
+Rscript scripts/export_score_mirdip.R PTEN hsa
+
+# 3) Integrated ranking
+Rscript scripts/export_score_integrated.R PTEN hsa --use-cache=true --method=tiered
+```
+
+### Interactive R (same logic as the CLIs)
+
+```r
+source("R/main.R")
+
+find_mirna_regulators("PTEN", sources = "targetscan")
+find_mirna_regulators(
+  "PTEN",
+  integrate = TRUE,
+  integrate_method = "tiered",
+  use_cached_predictions = TRUE
+)
+```
+
+TargetScan-only options: `query_targets_targetscan("PTEN", predictions = "all", score_name = "cwcs")`, `min_cwcs = -0.5`, `mirna_prefix = "species"` for human mature miRNAs after family expansion.
 
 ## Status
 
