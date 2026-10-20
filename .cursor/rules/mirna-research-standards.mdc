@@ -1,0 +1,49 @@
+---
+description: Standards for algorithm research docs and citations
+globs: docs/research/**
+alwaysApply: false
+---
+
+# miRNA Research Documentation Standards
+
+## Structure
+
+- One file per resource under `docs/research/`
+- Use the template from `template-algorithm-profile.md` (sections 1–8)
+- Follow task order in `RESEARCH_PLAN.md`
+
+## Required sections
+
+1. What is it?
+2. How does it work?
+3. What features does it use?
+4. What does its score mean?
+4b. Score inventory (every named score)
+5. Advantages
+6. Disadvantages
+7. When would you use it?
+8. Method-specific deep dive — from `deep-dive-checklists.md`
+
+## Deep-dive checklist
+
+- Complete every item in [deep-dive-checklists.md](../../.cursor/skills/mirna-algorithm-research/deep-dive-checklists.md) for the resource
+- TargetScan: separate rows for Context++, weighted Context++, aggregate, and PCT
+- Do not mark `complete` while checklist items are unchecked without "not documented" + source search note
+
+## Feature checklist
+
+Only include features explicitly documented in primary sources.
+
+## Score section
+
+Document evidence type per score: efficacy | conservation | ML confidence | meta-integration
+
+## Citations
+
+- End each doc with a **Sources** section
+- Add bibliography entries to `docs/presentation/sources/bibliography.md`
+- Update `score-comparison-matrix.md` after completing each algorithm doc
+
+## Stubs
+
+Scaffolding stubs stay `draft` with `TBD` until research execution. Do not invent values.

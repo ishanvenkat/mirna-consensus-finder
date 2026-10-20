@@ -1,0 +1,45 @@
+---
+description: Core miRNA project distinctions and integration constraints
+alwaysApply: true
+---
+
+# miRNA Project Core Rules
+
+## Prediction vs Validation
+
+- **Prediction algorithms:** TargetScan, DIANA-microT-CDS, miRDB, mirDIP
+- **Validation databases:** miRTarBase, DIANA-TarBase
+- Never call validation databases "prediction algorithms" or "target predictors"
+
+## Score Integration
+
+- Do **not** blindly average scores from different tools
+- Each score has different semantics (efficacy, conservation, ML confidence, meta-integration)
+- Complete `docs/research/score-comparison-matrix.md` before implementing `R/integrate_scores.R`
+- Prefer rank fusion, percentile normalization, or tiered evidence over raw averaging
+
+## Research Standards
+
+- Verify every algorithm feature claim from official docs or original papers
+- Tools4miRs is an index only — not a primary source for methodology
+- Tag interpretations vs documented facts in research docs
+
+## Central Question
+
+Every deliverable should help answer: **Why do TargetScan, DIANA, miRDB, and mirDIP disagree for the same gene?**
+
+## Running Example
+
+Use **PTEN** for demos, slide examples, and cross-tool comparisons.
+
+## mirDIP Caution
+
+mirDIP already integrates multiple predictors. Do not treat it as an independent equal-weight source alongside its constituent tools in consensus scoring.
+
+## Agent Skills
+
+| Task | Skill |
+|------|-------|
+| Algorithm research | `mirna-algorithm-research` |
+| R module implementation | `mirna-r-modules` |
+| Presentation content | `mirna-presentation` |

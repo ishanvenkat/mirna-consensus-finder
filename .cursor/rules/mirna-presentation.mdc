@@ -1,0 +1,35 @@
+---
+description: Slideshow content standards for miRNA algorithm comparison deck
+globs: docs/presentation/**
+alwaysApply: false
+---
+
+# miRNA Presentation Standards
+
+## File Conventions
+
+- Paste-ready content: `docs/presentation/slide-content.md`
+- One `## Slide N: Title` heading per slide
+- Bibliography: `docs/presentation/sources/bibliography.md`
+- Assets: `docs/presentation/assets/`
+
+## Content Limits
+
+- Maximum **5 bullets** per slide
+- Prefer diagrams over dense text on slides 12 and 13
+
+## Required Distinctions
+
+- Slides 3 and 11 must clearly separate prediction tools from validation databases
+- Slide 10 must describe mirDIP as integrative, not a single algorithm
+
+## Data-Driven Slides
+
+- Slide 12: pull from `docs/research/score-comparison-matrix.md` — do not invent score ranges
+- Slide 13: PTEN example — centerpiece explaining methodological disagreement
+- Slide 15: why naive averaging fails; cite integration options from research
+
+## Citations
+
+- Every non-obvious claim needs a bibliography entry
+- Include figure/diagram sources on References slide

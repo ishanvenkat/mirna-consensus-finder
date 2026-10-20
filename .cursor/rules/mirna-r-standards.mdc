@@ -1,0 +1,49 @@
+---
+description: R module conventions for miRNA target prediction tool
+globs: "{R/**,scripts/**}"
+alwaysApply: false
+---
+
+# miRNA R Standards
+
+## Module Layout
+
+- One file per source: `R/module_<source>.R`
+- Shared config: `R/config.R` (species, paths, thresholds)
+- Gene ID mapping: `R/utils_gene_id.R` only
+
+## Interface
+
+```r
+query_targets(gene_symbol, species = "hsa", ...)
+```
+
+Return tibble with: `gene_symbol`, `mirna`, `score_raw`, `score_name`, `score_direction`, `site_count`, `source`, `retrieved_at`.
+
+## Data Access
+
+- Use bulk downloads, official REST APIs, or Bioconductor — **no HTML scraping**
+- Cache API responses in `data/cache/`; bulk files in `data/raw/`
+- Large files: `data.table::fread` or `arrow`; filter locally by gene symbol
+- Use `httr2` for HTTP; implement bulk-download fallback for DIANA
+
+## Security
+
+```r
+# BAD — user input in shell
+system(paste("grep", gene_symbol, file_path))
+
+# GOOD — validate symbol, filter in R
+gene_symbol <- validate_gene_symbol(gene_symbol)
+dplyr::filter(predictions, Gene.Symbol == gene_symbol)
+```
+
+## Integration
+
+- Do not implement score averaging until score comparison matrix is complete
+- Validation module is read-only overlay — never mix into prediction scores
+
+## Testing
+
+- Tests in `R/tests/testthat/` with cached fixtures
+- Smoke test each module with `"PTEN"`
