@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="960" height="420" fill="#ffffff"/>
+  <text x="480" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Recommended Consensus Architecture</text>
+
+  <rect x="30" y="70" width="150" height="50" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="105" y="92" text-anchor="middle" font-size="12" font-weight="600">TargetScan</text>
+  <text x="105" y="108" text-anchor="middle" font-size="10" fill="#475569">CWCS rank</text>
+
+  <rect x="30" y="130" width="150" height="50" rx="8" fill="#cffafe" stroke="#0891b2"/>
+  <text x="105" y="152" text-anchor="middle" font-size="12" font-weight="600">DIANA</text>
+  <text x="105" y="168" text-anchor="middle" font-size="10" fill="#475569">microT rank</text>
+
+  <rect x="30" y="190" width="150" height="50" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="105" y="212" text-anchor="middle" font-size="12" font-weight="600">miRDB</text>
+  <text x="105" y="228" text-anchor="middle" font-size="10" fill="#475569">MirTarget rank</text>
+
+  <rect x="30" y="250" width="150" height="50" rx="8" fill="#ffedd5" stroke="#ea580c"/>
+  <text x="105" y="272" text-anchor="middle" font-size="12" font-weight="600">mirDIP</text>
+  <text x="105" y="288" text-anchor="middle" font-size="10" fill="#475569">meta-layer only</text>
+
+  <line x1="180" y1="95" x2="240" y2="160" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="180" y1="155" x2="240" y2="170" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="180" y1="215" x2="240" y2="180" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="180" y1="275" x2="240" y2="200" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="240" y="130" width="200" height="80" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="340" y="158" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">Per-source</text>
+  <text x="340" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">percentile or rank</text>
+  <text x="340" y="198" text-anchor="middle" font-size="11" fill="#78350f">Never raw score average</text>
+
+  <line x1="440" y1="170" x2="500" y2="170" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="500" y="130" width="200" height="80" rx="12" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="600" y="162" text-anchor="middle" font-size="14" font-weight="700" fill="#4338ca">Rank fusion</text>
+  <text x="600" y="184" text-anchor="middle" font-size="12" fill="#475569">Borda / tiered evidence</text>
+  <text x="600" y="202" text-anchor="middle" font-size="11" fill="#64748b">mirDIP = optional meta-tier</text>
+
+  <line x1="700" y1="170" x2="760" y2="170" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="760" y="110" width="170" height="120" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="845" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">Consensus</text>
+  <text x="845" y="162" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">ranked list</text>
+  <text x="845" y="190" text-anchor="middle" font-size="11" fill="#475569">+ PCT annotation</text>
+  <text x="845" y="208" text-anchor="middle" font-size="11" fill="#475569">+ validation flag</text>
+
+  <rect x="240" y="260" width="420" height="56" rx="10" fill="#f0fdf4" stroke="#22c55e"/>
+  <text x="450" y="284" text-anchor="middle" font-size="13" font-weight="600" fill="#166534">Validation overlay (miRTarBase / TarBase)</text>
+  <text x="450" y="304" text-anchor="middle" font-size="12" fill="#475569">experimental_support &#x2022; strong/weak tier &#x2022; separate from fusion</text>
+
+  <line x1="600" y1="260" x2="845" y2="230" stroke="#16a34a" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#a)"/>
+
+  <rect x="180" y="350" width="600" height="48" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+  <text x="480" y="380" text-anchor="middle" font-size="14" font-weight="600" fill="#991b1b">Do not add TargetScan + DIANA + miRDB + mirDIP as four equal votes</text>
+</svg>

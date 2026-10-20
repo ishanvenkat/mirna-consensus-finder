@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="400" fill="#ffffff"/>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">TargetScan: Separate Scoring Axes</text>
+  <text x="480" y="58" text-anchor="middle" font-size="13" fill="#64748b">Do not average &#x2014; different evidence types and scales</text>
+
+  <rect x="40" y="90" width="420" height="250" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="250" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ed8">Efficacy axis</text>
+  <text x="60" y="155" font-size="14" fill="#0f172a">&#x2022; <tspan font-weight="600">Context++</tspan> (site): more negative = stronger</text>
+  <text x="60" y="182" font-size="14" fill="#0f172a">&#x2022; <tspan font-weight="600">CWCS</tspan> (gene&#x2013;miRNA): more negative = stronger (log&#x2082;)</text>
+  <text x="60" y="209" font-size="14" fill="#0f172a">&#x2022; <tspan font-weight="600">Occupancy</tspan> (8.0 default): 0&#x2013;1 fraction</text>
+  <text x="60" y="250" font-size="12" fill="#475569">Measures predicted biochemical repression</text>
+  <text x="60" y="272" font-size="12" fill="#475569">Agarwal et al. 2015 &#x2022; McGeary et al. 2019</text>
+
+  <rect x="500" y="90" width="420" height="250" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="710" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#15803d">Conservation axis</text>
+  <text x="520" y="155" font-size="14" fill="#0f172a">&#x2022; <tspan font-weight="600">PCT</tspan> (site / aggregate): 0&#x2013;1 probability</text>
+  <text x="520" y="182" font-size="14" fill="#0f172a">&#x2022; Higher = stronger evolutionary support</text>
+  <text x="520" y="220" font-size="14" fill="#0f172a">&#x2022; Independent from Context++ ranking</text>
+  <text x="520" y="250" font-size="12" fill="#475569">Measures preferential conservation, not repression magnitude</text>
+  <text x="520" y="272" font-size="12" fill="#475569">Friedman et al. 2009</text>
+
+  <rect x="180" y="330" width="600" height="48" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="480" y="360" text-anchor="middle" font-size="14" font-weight="600" fill="#991b1b">PCT is also one of 14 Context++ features &#x2014; do not double-count when integrating</text>
+</svg>

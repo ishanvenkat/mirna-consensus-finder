@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="360" fill="#ffffff"/>
+  <text x="480" y="32" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Score Evidence Types by Resource</text>
+
+  <g font-size="12" fill="#0f172a">
+    <rect x="40" y="55" width="880" height="28" fill="#f1f5f9"/>
+    <text x="130" y="74" font-weight="700">Resource</text>
+    <text x="300" y="74" font-weight="700">Primary score</text>
+    <text x="500" y="74" font-weight="700">Evidence type</text>
+    <text x="680" y="74" font-weight="700">Region</text>
+    <text x="820" y="74" font-weight="700">Comparable?</text>
+
+    <rect x="40" y="83" width="880" height="36" fill="#eff6ff"/>
+    <text x="130" y="106">TargetScan</text>
+    <text x="300" y="106">CWCS / occupancy / PCT</text>
+    <text x="500" y="106">efficacy + conservation</text>
+    <text x="680" y="106">3&#x2032; UTR</text>
+    <text x="820" y="106">No</text>
+
+    <rect x="40" y="119" width="880" height="36" fill="#ffffff"/>
+    <text x="130" y="142">DIANA-microT-CDS</text>
+    <text x="300" y="142">microT</text>
+    <text x="500" y="142">efficacy (GLM)</text>
+    <text x="680" y="142">3&#x2032; UTR + CDS</text>
+    <text x="820" y="142">No</text>
+
+    <rect x="40" y="155" width="880" height="36" fill="#f8fafc"/>
+    <text x="130" y="178">miRDB</text>
+    <text x="300" y="178">MirTarget 50&#x2013;100</text>
+    <text x="500" y="178">ML confidence</text>
+    <text x="680" y="178">3&#x2032; UTR</text>
+    <text x="820" y="178">No</text>
+
+    <rect x="40" y="191" width="880" height="36" fill="#ffffff"/>
+    <text x="130" y="214">mirDIP</text>
+    <text x="300" y="214">Integrated 0&#x2013;1</text>
+    <text x="500" y="214">meta-integration</text>
+    <text x="680" y="214">24 sources</text>
+    <text x="820" y="214">No (already meta)</text>
+
+    <rect x="40" y="227" width="880" height="36" fill="#f0fdf4"/>
+    <text x="130" y="250">miRTarBase / TarBase</text>
+    <text x="300" y="250">Support level / method</text>
+    <text x="500" y="250">experimental support</text>
+    <text x="680" y="250">overlay only</text>
+    <text x="820" y="250">N/A</text>
+  </g>
+
+  <rect x="120" y="285" width="720" height="52" rx="10" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="480" y="310" text-anchor="middle" font-size="13" fill="#92400e">Naive averaging mixes efficacy, conservation, ML confidence, and meta-integration</text>
+  <text x="480" y="328" text-anchor="middle" font-size="13" fill="#92400e">&#x2192; use per-source ranks or percentile normalization instead</text>
+</svg>

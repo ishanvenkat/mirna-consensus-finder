@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="pred" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#eff6ff"/>
+    </linearGradient>
+    <linearGradient id="val" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#f0fdf4"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="960" height="420" fill="#ffffff"/>
+  <text x="480" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Prediction vs Validation</text>
+
+  <rect x="40" y="70" width="400" height="300" rx="16" fill="url(#pred)" stroke="#2563eb" stroke-width="2"/>
+  <text x="240" y="105" text-anchor="middle" font-size="18" font-weight="700" fill="#1d4ed8">Predictors</text>
+  <text x="240" y="132" text-anchor="middle" font-size="13" fill="#334155">TargetScan &#x2022; DIANA-microT-CDS &#x2022; miRDB &#x2022; mirDIP</text>
+  <text x="70" y="175" font-size="15" fill="#0f172a">Question: <tspan font-weight="700">Could</tspan> this miRNA regulate this gene?</text>
+  <text x="70" y="205" font-size="14" fill="#334155">&#x2022; Computational scores (efficacy, ML, meta-integration)</text>
+  <text x="70" y="230" font-size="14" fill="#334155">&#x2022; Genome-wide ranked lists</text>
+  <text x="70" y="255" font-size="14" fill="#334155">&#x2022; Different scales &#x2014; not directly comparable</text>
+  <text x="70" y="300" font-size="13" font-style="italic" fill="#64748b">Used for hypothesis ranking in this project</text>
+
+  <rect x="520" y="70" width="400" height="300" rx="16" fill="url(#val)" stroke="#16a34a" stroke-width="2"/>
+  <text x="720" y="105" text-anchor="middle" font-size="18" font-weight="700" fill="#15803d">Validation DBs</text>
+  <text x="720" y="132" text-anchor="middle" font-size="13" fill="#334155">miRTarBase &#x2022; DIANA-TarBase</text>
+  <text x="550" y="175" font-size="15" fill="#0f172a">Question: <tspan font-weight="700">Has</tspan> this interaction been supported?</text>
+  <text x="550" y="205" font-size="14" fill="#334155">&#x2022; Reporter assay, Western, qPCR, CLIP, etc.</text>
+  <text x="550" y="230" font-size="14" fill="#334155">&#x2022; Strong vs weak evidence tiers</text>
+  <text x="550" y="255" font-size="14" fill="#334155">&#x2022; Sparse coverage &#x2014; absence &#x2260; disproven</text>
+  <text x="550" y="300" font-size="13" font-style="italic" fill="#64748b">Read-only overlay &#x2014; never mixed into scores</text>
+
+  <line x1="440" y1="220" x2="520" y2="220" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="210" text-anchor="middle" font-size="12" fill="#475569">annotate</text>
+
+  <rect x="280" y="340" width="400" height="48" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="480" y="370" text-anchor="middle" font-size="14" font-weight="600" fill="#92400e">Rank predictions first &#x2192; overlay experimental_support flag</text>
+</svg>
