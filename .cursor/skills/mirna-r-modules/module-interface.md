@@ -65,9 +65,11 @@ tibble(
 |----------|------|
 | Per source | `<GENE>_<species>_<source>.csv` and `.rds` |
 | Combined | `<GENE>_<species>_predictions_combined.csv` |
-| Integrated | `<GENE>_<species>_integrated.csv` and `.rds` |
+| Integrated (full) | `<GENE>_<species>_integrated.csv` and `.rds` |
+| Integrated consensus | `<GENE>_<species>_integrated_consensus.csv` and `.rds` (`n_sources >= 2`) |
+| Integrated single-source | `<GENE>_<species>_integrated_single_source.csv` and `.rds` (`n_sources == 1`) |
 
-Helpers live in `R/cache_predictions.R`: `write_prediction_cache`, `read_prediction_cache`, `load_predictions`, `write_integrated_cache`.
+Helpers live in `R/cache_predictions.R`: `write_prediction_cache`, `read_prediction_cache`, `load_predictions`, `annotate_integrated`, `write_integrated_cache`.
 
 CLI: `scripts/export_score_{targetscan,diana,mirdb,mirdip}.R`, `scripts/export_score_integrated.R` (shared `scripts/lib/export_cli.R`).
 

@@ -16,6 +16,8 @@ if (length(args) == 0L || args[[1L]] %in% c("-h", "--help")) {
     "Usage: Rscript scripts/export_score_integrated.R GENE [species] [flags]\n",
     "\n",
     "  Writes data/cache/<GENE>_<species>_integrated.csv|.rds\n",
+    "  Writes data/cache/<GENE>_<species>_integrated_consensus.csv|.rds (n_sources >= 2)\n",
+    "  Writes data/cache/<GENE>_<species>_integrated_single_source.csv|.rds (n_sources == 1)\n",
     "  Optionally data/cache/<GENE>_<species>_predictions_combined.csv\n",
     "\n",
     "Flags:\n",
@@ -65,6 +67,16 @@ if (is.null(out$integrated) || nrow(out$integrated) == 0L) {
 paths <- write_integrated_cache(out$integrated, gene, species)
 message("Wrote ", paths$csv, " (", nrow(out$integrated), " rows)")
 message("Wrote ", paths$rds)
+n_multi <- sum(out$integrated$n_sources >= 2L)
+n_single <- sum(out$integrated$n_sources == 1L)
+message(
+  "Wrote ", paths$consensus_csv, " (", n_multi, " rows, n_sources >= 2)"
+)
+message("Wrote ", paths$consensus_rds)
+message(
+  "Wrote ", paths$single_source_csv, " (", n_single, " rows, n_sources == 1)"
+)
+message("Wrote ", paths$single_source_rds)
 
 if (isTRUE(write_combined)) {
   combined_path <- write_combined_predictions_cache(out$predictions, gene, species)

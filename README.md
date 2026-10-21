@@ -76,6 +76,8 @@ Each export script queries one predictor for a **gene symbol** and species (`hsa
 - `data/cache/<GENE>_<species>_<source>.csv`
 - `data/cache/<GENE>_<species>_<source>.rds`
 
+**Naming:** Per-source caches **must** use `<GENE>_<species>_<source>` (e.g. `PTEN_hsa_targetscan.csv`). The integrated export with `--use-cache=true` reads only those paths via [`prediction_cache_path()`](R/cache_predictions.R). Re-run the `export_score_*.R` scripts to regenerate standard files.
+
 Replace `PTEN` with any validated HUGO symbol. Pass `--help` (or run with no args) on any script for flags.
 
 **TargetScan** (requires TargetScan bulk download):
@@ -125,8 +127,29 @@ Combines predictors with `integrate_scores()` (default method: **tiered** — no
 
 | File | Contents |
 |------|----------|
-| `data/cache/<GENE>_<species>_integrated.csv` / `.rds` | Ranked integrated table |
+| `data/cache/<GENE>_<species>_integrated.csv` / `.rds` | Full ranked table (all miRNAs) |
+| `data/cache/<GENE>_<species>_integrated_consensus.csv` / `.rds` | **Primary:** `n_sources >= 2`, ranks recomputed within this subset |
+| `data/cache/<GENE>_<species>_integrated_single_source.csv` / `.rds` | **Secondary:** `n_sources == 1` (single-tool hits), `single_source_rank` |
 | `data/cache/<GENE>_<species>_predictions_combined.csv` | Long-format rows from all sources (unless disabled) |
+
+Integrated columns include **`consensus_score`** (rank-fusion sum) and **`n_sources`** (how many fused tools listed the miRNA), plus **`sources_hit`**, **`consensus_tier`** (`multi_source` / `single_source`). Use the consensus file for cross-tool agreement; keep the single-source file for literature-supported pairs that only pass one predictor’s filters.
+
+#### Tool cutoffs and `n_sources`
+
+Tiered fusion uses **TargetScan, DIANA, and miRDB** only; **mirDIP** is attached for annotation (score / class) and is not fused, to avoid double-counting meta-integration.
+
+Each tool applies its own export cutoff **before** integration. **`n_sources` counts how many fused tools returned that miRNA in the export**, not biological certainty. If a tool does not list a miRNA, rank fusion assigns **zero points** from that tool (missing call, not an extra penalty).
+
+| Tool | Default cutoff | Config (`R/config.R`) | Export flag |
+|------|----------------|----------------------|-------------|
+| TargetScan | No score floor by default | `THRESHOLDS$targetscan_min_cwcs` | `--min-cwcs`, `--predictions=default\|all`, `--score-name=cwcs\|biochem_occupancy` |
+| DIANA-microT-CDS | microT ≥ **0.7** | `THRESHOLDS$diana_microt` | `--threshold` |
+| miRDB | MirTarget ≥ **60** | `THRESHOLDS$mirdb` | `--min-score` |
+| mirDIP | Score class filter (see config) | `THRESHOLDS$mirdip_min_score`, `MIRDIP$default_score_class` | `--score-class`, `--min-score` |
+
+Because lists are thresholded (e.g. miRDB scores often bottom out near 60.1, DIANA at 0.7), **`consensus_score` tends to favor miRNAs that clear every tool’s gate**. Well-validated regulators with non-canonical or poorly conserved sites (e.g. **miR-21-5p** on PTEN in CRC — Meng et al., 2007) may appear with **`n_sources = 1`**; treat those as a **secondary single-tool table**, not as discardable noise. See [`docs/research/score-comparison-matrix.md`](docs/research/score-comparison-matrix.md) for score semantics per tool.
+
+**Future work:** a fourth independent predictor (e.g. miRmap or RNA22) would make a “≥2 of 4” tiered criterion more informative; not implemented in this repo yet.
 
 **Live queries** (hits APIs / bulk as needed; does not require prior per-source exports):
 

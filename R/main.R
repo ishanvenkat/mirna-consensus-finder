@@ -49,6 +49,17 @@ find_mirna_regulators <- function(
   integrated <- NULL
   if (isTRUE(integrate)) {
     integrated <- integrate_scores(predictions, method = integrate_method)
+    fusion_sources <- if (integrate_method == "tiered") {
+      INDEPENDENT_SOURCES
+    } else {
+      unique(predictions$source)
+    }
+    fusion_sources <- intersect(fusion_sources, unique(predictions$source))
+    integrated <- annotate_integrated(
+      integrated,
+      predictions,
+      fusion_sources = fusion_sources
+    )
   }
 
   validation <- NULL
