@@ -55,7 +55,7 @@ test_that("query_targets_targetscan returns expected columns for PTEN", {
       "mirna_family", "targetscan_representative_mirna"
     )
   )
-  expect_equal(nrow(result), 6L)
+  expect_equal(nrow(result), 8L)
   expect_true(all(result$score_direction == "lower_is_stronger"))
   expect_true(all(result$source == "targetscan"))
   expect_equal(result$mirna[[1]], "hsa-let-7a-5p")
@@ -66,7 +66,7 @@ test_that("query_targets_targetscan returns expected columns for PTEN", {
 test_that("query_targets_targetscan filters to representative transcript only", {
   use_targetscan_fixture()
   result <- query_targets_targetscan("PTEN", species = "hsa")
-  expect_equal(nrow(result), 6L)
+  expect_equal(nrow(result), 8L)
 })
 
 test_that("unknown gene returns empty tibble", {
@@ -115,21 +115,21 @@ test_that("score_name biochem_occupancy selects occupancy column", {
   expect_true(all(result$score_name == "biochem_occupancy"))
   let7 <- result[result$mirna == "hsa-let-7a-5p", , drop = FALSE]
   expect_equal(let7$score_raw[[1]], 0.12)
-  expect_equal(result$mirna[[1]], "hsa-miR-21-5p")
-  expect_equal(result$score_raw[[1]], 0.15)
+  expect_equal(result$mirna[[1]], "hsa-miR-494-3p")
+  expect_equal(result$score_raw[[1]], 1.73)
 })
 
 test_that("mirna_prefix filters expanded mature miRNA names", {
   use_targetscan_fixture()
   all_rows <- query_targets_targetscan("PTEN", species = "hsa")
-  expect_equal(nrow(all_rows), 6L)
+  expect_equal(nrow(all_rows), 8L)
 
   hsa_only <- query_targets_targetscan("PTEN", species = "hsa", mirna_prefix = "hsa")
-  expect_equal(nrow(hsa_only), 6L)
+  expect_equal(nrow(hsa_only), 8L)
   expect_true(all(grepl("^hsa-", hsa_only$mirna)))
 
   species_prefix <- query_targets_targetscan("PTEN", species = "hsa", mirna_prefix = "species")
-  expect_equal(nrow(species_prefix), 6L)
+  expect_equal(nrow(species_prefix), 8L)
 
   mmu_only <- query_targets_targetscan("PTEN", species = "hsa", mirna_prefix = "mmu")
   expect_equal(nrow(mmu_only), 0L)
@@ -159,8 +159,19 @@ test_that("family expansion emits all seed-family members for miR-17 cluster", {
 test_that("min_cwcs retains stronger (more negative) CWCS rows", {
   use_targetscan_fixture()
   filtered <- query_targets_targetscan("PTEN", min_cwcs = -0.7)
-  expect_equal(nrow(filtered), 3L)
+  expect_equal(nrow(filtered), 4L)
   expect_true(all(filtered$score_raw <= -0.7))
+})
+
+test_that("hsa-miR-494-3p outranks hsa-miR-145-5p for PTEN by CWCS", {
+  use_targetscan_fixture()
+  # CWCS anchors from TargetScan 8.0 PTEN bulk (-0.799 vs -0.002); ranking regression.
+  result <- query_targets_targetscan("PTEN", species = "hsa", mirna_prefix = "species")
+  expect_true(all(c("hsa-miR-494-3p", "hsa-miR-145-5p") %in% result$mirna))
+  i494 <- match("hsa-miR-494-3p", result$mirna)
+  i145 <- match("hsa-miR-145-5p", result$mirna)
+  expect_lt(i494, i145)
+  expect_lt(result$score_raw[[i494]], result$score_raw[[i145]])
 })
 
 test_that("CWCS uses lower_is_stronger and biochem uses higher_is_stronger", {
