@@ -183,6 +183,35 @@ Rscript scripts/export_score_mirdip.R PTEN hsa
 Rscript scripts/export_score_integrated.R PTEN hsa --use-cache=true --method=tiered
 ```
 
+### Validation overlay (miRTarBase 2025 + TarBase via multiMiR)
+
+Install Bioconductor **multiMiR** for TarBase lookups:
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install("multiMiR")
+```
+
+```bash
+# miRTarBase 2025 reporter-assay bulk (awi.cuhk.edu.cn, release 11.0)
+Rscript scripts/download_mirtarbase.R
+
+# PTEN validation cache (strong evidence: reporter and/or Western blot)
+Rscript scripts/export_validation.R PTEN hsa
+```
+
+Writes `data/cache/PTEN_hsa_validation.csv` plus split `*_validation_mirtarbase_strong.csv` and `*_validation_tarbase.csv`. multiMiR embeds an older TarBase snapshot — provenance columns record the versions returned by `multimir_dbInfo()`.
+
+**Annotate integrated rankings** (left join validation flags onto each consensus row; optional append of validation-only miRNAs):
+
+```bash
+# After export_score_integrated.R and export_validation.R
+Rscript scripts/export_integrated_annotated.R PTEN hsa
+Rscript scripts/export_integrated_annotated.R PTEN hsa --append-validated=true
+```
+
+Writes `data/cache/PTEN_hsa_integrated_annotated.csv` with `experimental_support`, `support_level`, and `row_type` (`predicted` vs `validated_only`). Does not change `consensus_score` or `consensus_rank`.
+
 ### Interactive R (same logic as the CLIs)
 
 ```r
@@ -193,7 +222,9 @@ find_mirna_regulators(
   "PTEN",
   integrate = TRUE,
   integrate_method = "tiered",
-  use_cached_predictions = TRUE
+  use_cached_predictions = TRUE,
+  include_validation = TRUE,
+  append_validated_only = FALSE
 )
 ```
 
@@ -208,7 +239,7 @@ TargetScan-only options: `query_targets_targetscan("PTEN", predictions = "all", 
 | 2 — Algorithm research | Complete — see `docs/research/` |
 | 3 — Slideshow | Complete — see `docs/presentation/` |
 | 4 — R modules | TargetScan, DIANA, miRDB, mirDIP implemented; `integrate_scores()` wired in `main.R` |
-| 5 — Validation demo | `query_validation()` via multiMiR (fixture-backed tests) |
+| 5 — Validation demo | `query_validation()` — local miRTarBase 2025 + TarBase multiMiR; `scripts/export_validation.R` |
 
 ## Key Principle
 

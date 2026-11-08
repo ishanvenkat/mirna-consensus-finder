@@ -4,11 +4,12 @@
 PROJECT_ROOT <- normalizePath(".", winslash = "/", mustWork = FALSE)
 
 PATHS <- list(
-  raw     = file.path(PROJECT_ROOT, "data", "raw"),
-  cache   = file.path(PROJECT_ROOT, "data", "cache"),
+  raw        = file.path(PROJECT_ROOT, "data", "raw"),
+  cache      = file.path(PROJECT_ROOT, "data", "cache"),
   targetscan = file.path(PROJECT_ROOT, "data", "raw", "targetscan"),
-  diana   = file.path(PROJECT_ROOT, "data", "raw", "diana"),
-  mirdb   = file.path(PROJECT_ROOT, "data", "raw", "mirdb")
+  diana      = file.path(PROJECT_ROOT, "data", "raw", "diana"),
+  mirdb      = file.path(PROJECT_ROOT, "data", "raw", "mirdb"),
+  mirtarbase = file.path(PROJECT_ROOT, "data", "raw", "mirtarbase")
 )
 
 SPECIES <- list(
@@ -161,6 +162,44 @@ MIRDIP <- list(
   score_name = "integrated",
   human_only = TRUE
 )
+
+# miRTarBase 2025 (release 11.0 on awi.cuhk.edu.cn — not the legacy ~miRTarBase_2025 path)
+MIRTARBASE <- list(
+  release_label = "miRTarBase 2025",
+  db_version = "11.0",
+  downloads_base = "https://awi.cuhk.edu.cn/miRTarBase/downloads/files/11.0",
+  files = list(
+    mti = "miRTarBase_MTI.csv",
+    se_reporter = "miRTarBase_SE_R.csv"
+  ),
+  species_col = "Species (Target Gene)",
+  target_col = "Target Gene",
+  mirna_col = "miRNA",
+  experiments_col = "Experiments",
+  reporter_flag_col = "Reporter assay",
+  western_flag_col = "Western blot",
+  strong_method_pattern = "(luciferase|reporter[[:space:]]*assay|western[[:space:]]*blot)"
+)
+
+get_mirtarbase_root <- function() {
+  override <- getOption("mirna.mirtarbase.data_root")
+  if (!is.null(override)) {
+    return(normalizePath(override, winslash = "/", mustWork = FALSE))
+  }
+  PATHS$mirtarbase
+}
+
+mirtarbase_bulk_url <- function(file_key = c("se_reporter", "mti")) {
+  file_key <- match.arg(file_key)
+  file_name <- MIRTARBASE$files[[file_key]]
+  paste0(MIRTARBASE$downloads_base, "/", file_name)
+}
+
+mirtarbase_bulk_path <- function(file_key = c("se_reporter", "mti")) {
+  file_key <- match.arg(file_key)
+  file_name <- MIRTARBASE$files[[file_key]]
+  file.path(get_mirtarbase_root(), file_name)
+}
 
 get_ensembl_cache_path <- function() {
   override <- getOption("mirna.ensembl.cache_path")

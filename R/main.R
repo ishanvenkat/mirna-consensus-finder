@@ -27,6 +27,7 @@ find_mirna_regulators <- function(
   integrate = FALSE,
   integrate_method = c("rank_fusion", "percentile", "tiered"),
   use_cached_predictions = FALSE,
+  append_validated_only = FALSE,
   ...
 ) {
   gene_symbol <- validate_gene_symbol(gene_symbol)
@@ -65,6 +66,14 @@ find_mirna_regulators <- function(
   validation <- NULL
   if (isTRUE(include_validation)) {
     validation <- query_validation(gene_symbol, species = species, ...)
+  }
+
+  if (isTRUE(integrate) && isTRUE(include_validation) && !is.null(validation)) {
+    integrated <- annotate_integrated_with_validation(
+      integrated,
+      validation,
+      append_validated_only = append_validated_only
+    )
   }
 
   list(
