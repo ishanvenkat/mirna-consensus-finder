@@ -68,10 +68,13 @@ tibble(
 | Integrated (full) | `<GENE>_<species>_integrated.csv` and `.rds` |
 | Integrated consensus | `<GENE>_<species>_integrated_consensus.csv` and `.rds` (`n_sources >= 2`) |
 | Integrated single-source | `<GENE>_<species>_integrated_single_source.csv` and `.rds` (`n_sources == 1`) |
+| Integrated + validation overlay | `<GENE>_<species>_integrated_annotated.csv` and `.rds` |
 
-Helpers live in `R/cache_predictions.R`: `write_prediction_cache`, `read_prediction_cache`, `load_predictions`, `annotate_integrated`, `write_integrated_cache`.
+Helpers live in `R/cache_predictions.R`: `write_prediction_cache`, `read_prediction_cache`, `load_predictions`, `annotate_integrated`, `write_integrated_cache`, `read_integrated_cache`, `read_validation_cache`, `write_integrated_annotated_cache`.
 
-CLI: `scripts/export_score_{targetscan,diana,mirdb,mirdip}.R`, `scripts/export_score_integrated.R` (shared `scripts/lib/export_cli.R`).
+Validation overlay: `annotate_integrated_with_validation()` in `R/module_validation.R` (join only — never alters `consensus_score` / `consensus_rank`).
+
+CLI: `scripts/export_score_{targetscan,diana,mirdb,mirdip}.R`, `scripts/export_score_integrated.R`, `scripts/export_validation.R`, `scripts/export_integrated_annotated.R` (shared `scripts/lib/export_cli.R`).
 
 ## Main Entry Point
 
@@ -84,13 +87,15 @@ find_mirna_regulators <- function(
   integrate = FALSE,
   integrate_method = c("rank_fusion", "percentile", "tiered"),
   use_cached_predictions = FALSE,
+  append_validated_only = FALSE,
   ...
 ) {
   # 1. Validate gene_symbol
   # 2. load_predictions() per source (live, or cache + live fallback)
-  # 3. Optional integrate_scores()
+  # 3. Optional integrate_scores() + annotate_integrated()
   # 4. Optional query_validation()
-  # 5. Return list(predictions, integrated, validation)
+  # 5. When integrate + include_validation: annotate_integrated_with_validation() on integrated
+  # 6. Return list(predictions, integrated, validation)
 }
 ```
 

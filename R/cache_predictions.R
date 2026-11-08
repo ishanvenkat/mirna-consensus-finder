@@ -71,6 +71,91 @@ integrated_single_source_cache_path <- function(gene_symbol, species, ext = "csv
   )
 }
 
+validation_cache_path <- function(gene_symbol, species, label = "validation", ext = "csv") {
+  gene_symbol <- validate_gene_symbol(gene_symbol)
+  species <- validate_cache_species(species)
+  ext <- match.arg(ext, c("csv", "rds"))
+  file.path(PATHS$cache, paste0(gene_symbol, "_", species, "_", label, ".", ext))
+}
+
+write_validation_table <- function(df, csv_path, rds_path) {
+  utils::write.csv(df, csv_path, row.names = FALSE)
+  saveRDS(df, rds_path)
+  invisible(list(csv = csv_path, rds = rds_path))
+}
+
+write_validation_cache <- function(df, gene_symbol, species) {
+  if (!is.data.frame(df)) {
+    stop("validation result must be a data.frame", call. = FALSE)
+  }
+  ensure_data_dirs()
+  csv_path <- validation_cache_path(gene_symbol, species, "validation", "csv")
+  rds_path <- validation_cache_path(gene_symbol, species, "validation", "rds")
+  write_validation_table(df, csv_path, rds_path)
+  invisible(list(csv = csv_path, rds = rds_path))
+}
+
+validation_cache_exists <- function(gene_symbol, species) {
+  csv_path <- validation_cache_path(gene_symbol, species, "validation", "csv")
+  rds_path <- validation_cache_path(gene_symbol, species, "validation", "rds")
+  file.exists(csv_path) || file.exists(rds_path)
+}
+
+read_validation_cache <- function(gene_symbol, species) {
+  rds_path <- validation_cache_path(gene_symbol, species, "validation", "rds")
+  csv_path <- validation_cache_path(gene_symbol, species, "validation", "csv")
+  if (file.exists(rds_path)) {
+    readRDS(rds_path)
+  } else if (file.exists(csv_path)) {
+    read.csv(csv_path, stringsAsFactors = FALSE)
+  } else {
+    stop("Validation cache not found: ", csv_path, call. = FALSE)
+  }
+}
+
+integrated_cache_exists <- function(gene_symbol, species) {
+  csv_path <- integrated_cache_path(gene_symbol, species, "csv")
+  rds_path <- integrated_cache_path(gene_symbol, species, "rds")
+  file.exists(csv_path) || file.exists(rds_path)
+}
+
+read_integrated_cache <- function(gene_symbol, species) {
+  rds_path <- integrated_cache_path(gene_symbol, species, "rds")
+  csv_path <- integrated_cache_path(gene_symbol, species, "csv")
+  if (file.exists(rds_path)) {
+    readRDS(rds_path)
+  } else if (file.exists(csv_path)) {
+    read.csv(csv_path, stringsAsFactors = FALSE)
+  } else {
+    stop("Integrated cache not found: ", csv_path, call. = FALSE)
+  }
+}
+
+integrated_annotated_cache_path <- function(gene_symbol, species, ext = "csv") {
+  gene_symbol <- validate_gene_symbol(gene_symbol)
+  species <- validate_cache_species(species)
+  ext <- match.arg(ext, c("csv", "rds"))
+  file.path(
+    PATHS$cache,
+    paste0(gene_symbol, "_", species, "_integrated_annotated.", ext)
+  )
+}
+
+write_integrated_annotated_cache <- function(df, gene_symbol, species) {
+  if (!is.data.frame(df)) {
+    stop("annotated integrated result must be a data.frame", call. = FALSE)
+  }
+  ensure_data_dirs()
+  csv_path <- integrated_annotated_cache_path(gene_symbol, species, "csv")
+  rds_path <- integrated_annotated_cache_path(gene_symbol, species, "rds")
+  prov <- attr(df, "validation_provenance")
+  utils::write.csv(df, csv_path, row.names = FALSE)
+  saveRDS(df, rds_path)
+  message("Wrote ", csv_path, " (", nrow(df), " rows)")
+  message("Wrote ", rds_path)
+  invisible(list(csv = csv_path, rds = rds_path, provenance = prov))
+}
+
 validate_prediction_frame <- function(df, path_hint = "predictions") {
   if (!is.data.frame(df)) {
     stop(path_hint, " must be a data.frame", call. = FALSE)

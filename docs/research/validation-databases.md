@@ -22,7 +22,7 @@ Research plan: [RESEARCH_PLAN.md](RESEARCH_PLAN.md#5-validation-databases)
 
 **miRTarBase** is a manually curated database of **experimentally validated miRNA–target interactions (MTIs)** maintained by the Warshel Institute for Computational Biology (Chinese University of Hong Kong, Shenzhen). Launched in 2010; current release **miRTarBase 2025** (database version 10.0, September 2024) contains **>3,817,550** curated MTIs from **13,690** articles across **39 species** (Cui et al., 2025).
 
-URL: https://mirtarbase.cuhk.edu.cn/~miRTarBase/miRTarBase_2025
+URL: https://awi.cuhk.edu.cn/miRTarBase/ (release **11.0** download files; legacy `~miRTarBase/miRTarBase_2025` paths may 404)
 
 ### Evidence types supported
 
@@ -204,7 +204,7 @@ For each predicted gene–miRNA pair from TargetScan/DIANA/miRDB/mirDIP, attach 
 
 ### R module (`R/module_validation.R`)
 
-- Primary interface: **multiMiR** `get_multimir(table = "validated")` for unified lookup
+- Primary interface: **local miRTarBase 2025** bulk (`scripts/download_mirtarbase.R`) + **multiMiR** `get_multimir(table = "tarbase")` for TarBase
 - Optional: DIANA TarBase REST API for rich metadata (cell type, binding location)
 - **Do not** use validation presence as a numeric score in `integrate_scores.R`
 - Tiered display: predictions with `support_level == "strong"` highlighted; weak/CLIP-only annotated separately
