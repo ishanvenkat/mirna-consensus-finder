@@ -326,6 +326,8 @@ Paste-ready bullets for the presentation deck. Max 5 bullets per slide.
 
 - **Validation overlay** (`experimental_support`, strong/weak) via multiMiR — annotates predictions, never replaces them
 
+- **PTEN benchmark:** `scripts/evaluate_consensus.R` → recall@k and PR curve vs strong validation (miRTarBase + TarBase); optional chart [`assets/pten-pr-curve.png`](assets/pten-pr-curve.png)
+
 
 
 ---

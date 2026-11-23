@@ -14,6 +14,7 @@ All assets use a 960px-wide canvas suitable for 16:9 slides.
 | [`slide12-evidence-types.svg`](slide12-evidence-types.svg) | 12 | Table: resource, score, evidence type, region, comparability |
 | [`slide13-pten-disagreement.svg`](slide13-pten-disagreement.svg) | 13 | PTEN hub with four tool branches + validated miR-21/miR-214 callouts |
 | [`slide15-consensus-scoring-flow.svg`](slide15-consensus-scoring-flow.svg) | 15 | Per-source rank ? fusion ? consensus + validation overlay |
+| [`pten-pr-curve.png`](pten-pr-curve.png) | 15 (optional) | Rank-based precision–recall from `scripts/evaluate_consensus.R` |
 
 ## Design notes
 
