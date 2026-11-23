@@ -212,6 +212,18 @@ Rscript scripts/export_integrated_annotated.R PTEN hsa --append-validated=true
 
 Writes `data/cache/PTEN_hsa_integrated_annotated.csv` with `experimental_support`, `support_level`, and `row_type` (`predicted` vs `validated_only`). Does not change `consensus_score` or `consensus_rank`.
 
+### Consensus evaluation (recall@k + PR curve)
+
+Compare **tiered consensus** (TargetScan + DIANA + miRDB fused; mirDIP excluded from fusion) against each single tool and **mirDIP alone**. Ground truth is the validation cache (`experimental_support`; default **strong** tier only). Metrics are **rank-based**: recall@k = validated miRNAs found in the top *k* divided by all validated miRNAs for that gene; precision@k = hits / effective *k*. Unlisted predictions are unlabeled, not negatives. See [`docs/research/validation-databases.md`](docs/research/validation-databases.md).
+
+```bash
+# After validation + integrated exports (cached predictions)
+Rscript scripts/evaluate_consensus.R PTEN hsa
+Rscript scripts/evaluate_consensus.R PTEN hsa --plot=true --consensus-subset=both
+```
+
+Writes `data/cache/PTEN_hsa_evaluation_recall_at_k.csv`, `PTEN_hsa_evaluation_pr_curve.csv`, and `PTEN_hsa_evaluation_summary.rds`. Optional plot: `docs/presentation/assets/pten-pr-curve.png`.
+
 ### Interactive R (same logic as the CLIs)
 
 ```r
@@ -240,6 +252,7 @@ TargetScan-only options: `query_targets_targetscan("PTEN", predictions = "all", 
 | 3 — Slideshow | Complete — see `docs/presentation/` |
 | 4 — R modules | TargetScan, DIANA, miRDB, mirDIP implemented; `integrate_scores()` wired in `main.R` |
 | 5 — Validation demo | `query_validation()` — local miRTarBase 2025 + TarBase multiMiR; `scripts/export_validation.R` |
+| 6 — PTEN evaluation | `evaluate_consensus_rankings()` + `scripts/evaluate_consensus.R` (recall@k, PR vs validation) |
 
 ## Key Principle
 
